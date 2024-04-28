@@ -1,0 +1,35 @@
+<template>
+<lightning-card  variant="Narrow"  title="Hello" icon-name="standard:account">
+    <p>I am your new component</p>
+        <lightning-button variant="base" label="MyButton" title="NewOne" onclick={handleClick}>
+            </lightning-button>
+
+</lightning-card>
+
+<lightning-card  variant="Narrow"  title="Hello" icon-name="standard:account">
+<lightning-button-icon  icon-name="utility:down" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
+<p class="slds-p-horizontal_small">Card Body Narrow (custom component)</p>
+<p slot="footer">Card Footer</p>
+<template if:true={showPill1}>
+<lightning-pill label="Your HAndy Developer Console"
+            href="https://danocloud5-dev-ed.my.salesforce.com/_ui/common/apex/debug/ApexCSIPage"
+
+onremove={handleRemove}></lightning-pill>
+    </template>
+
+<template if:true={showPill}>
+    <lightning-pill
+        label="Account"
+        href="https://danocloud5-dev-ed.lightning.force.com/lightning/o/Account/list?filterName=Recent"
+        onremove={handleRemoveOnly}
+        onclick={handleClick}
+    >
+    </lightning-pill>
+    <c-dynamic-data-table>
+                </c-dynamic-data-table>
+
+
+</template>
+
+
+</lightning-card>	</template>

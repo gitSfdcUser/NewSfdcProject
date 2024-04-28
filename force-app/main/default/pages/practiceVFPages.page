@@ -1,0 +1,12 @@
+<apex:page >
+    <apex:form >
+        <apex:pageBlock >
+            <apex:outputPanel >
+                <div class="requiredInput">
+                <div class="requiredBlock"></div>
+                <apex:outputText value="This is the required output text field" />
+                </div>
+            </apex:outputPanel>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

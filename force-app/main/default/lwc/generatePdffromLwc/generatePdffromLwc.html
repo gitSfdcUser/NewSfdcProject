@@ -1,0 +1,43 @@
+<template>
+    <lightning-card>
+      <h1 slot="title">Matched Product Offerings</h1>
+
+        <div class="slds-button_icon slds-col_bump-left" slot="actions">
+                                    <lightning-button-icon icon-name="utility:expand" alternative-text="Expand" title="Expand" variant="bare" size="large" onclick={handleExpansion}></lightning-button-icon>
+                                </div>
+        <div class="slds-p-around_medium">
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered" aria-label="Example table of Accounts with striped rows">
+                <tbody>
+                    <template for:each={accounts} for:item="account">
+                        <tr key={account.Id} class="slds-hint-parent slds-box">
+                            <th data-label="Account Name" scope="row">
+                                <div class="slds-truncate" title={account.Name}>
+                                    <strong>{account.Name}</strong>
+                                </div>
+                            </th>
+                            <td data-label="Fund Details" class="slds-text-align_right">
+                                <div class="slds-truncate" title={account.Type}>
+                                    <strong><a href={getAccountDetailUrl} tabindex="-1">View Fund Details</a></strong>
+                                </div>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+        <div class="slds-p-around_medium">
+            <div class="slds-grid slds-align-vertical-center">
+                <div class="slds-col">
+                    <div class="slds-truncate" title="Cloudhub">
+                        <strong><a href="https://danocloud5-dev-ed.lightning.force.com/lightning/r/Account/0015g00001BZn6VAAT/view" tabindex="-1">View Reports</a></strong>
+                    </div>
+                </div>
+                <div class="slds-col slds-text-align_right">
+                    <div>
+                        {currentTime}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>

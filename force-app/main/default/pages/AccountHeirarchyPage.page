@@ -1,0 +1,23 @@
+<apex:page Controller="AccountHierarchyTree" tabStyle="Account">
+    <apex:form id="f1">
+        <apex:pageBlock >
+            <apex:pageblockSection columns="1"  title="Search for your Account">
+                <apex:inputText value="{!searchVal}"/>
+                <apex:commandbutton value="Search Accounts" reRender="f1" action="{!SearchAcc}"/>
+            </apex:pageblockSection>
+            <apex:pageblockSection title="Accounts" columns="1">
+                <apex:pageblocktable value="{!accList}" var="item">
+                    <apex:column value="{!item.name}"/>
+                    <apex:column value="{!item.Phone}"/>
+                </apex:pageblocktable>
+            </apex:pageblockSection>
+            
+            <apex:pageblockSection title="Accounts heirarchy" columns="1">
+                <apex:repeat value="{!NewaccList}" var="item">
+                    <apex:outputtext value="{!item.name}"/>
+                </apex:repeat>
+            </apex:pageblockSection>    
+            
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,56 @@
+<aura:component implements="force:appHostable">
+        <aura:attribute name="name" type="String" />
+        <aura:attribute name="phone" type="String" />
+        <aura:attribute name="industry" type="String" />
+        <aura:attribute name="website" type="String" />
+        <aura:attribute name="rating" type="String" />
+
+        <lightning:card title="Create Account" iconName="standard:account">
+
+                <div class="slds-m-around_large">
+                        <div class="slds-grid slds-wrap">
+                                <div class="slds-col slds-size_1-of-2">
+                                        <span>
+                                                <lightning:input type="text" label="Name" value="{!v.name}" />
+                                        </span>
+                                </div>
+
+                                <div class="slds-col slds-size_1-of-2">
+                                        <div class="slds-p-left_xx-small">
+                                                <span>
+                                                        <lightning:input type="text" label="Phone" value="{!v.phone}" />
+                                                </span>
+                                        </div>
+                                </div>
+
+                        </div>
+
+                        <div class="slds-grid slds-wrap">
+                                <div class="slds-col slds-size_6-of-12">
+                                        <span>
+                                                <lightning:input type="text" label="Industry" value="{!v.industry}" />
+                                        </span>
+                                </div>
+
+                                <div class="slds-col slds-size_8-of-12">
+                                        <span>
+                                                <lightning:input type="text" label="Website" value="{!v.website}" />
+                                        </span>
+                                </div>
+                        </div>
+
+
+                        <div class="slds-grid slds-wrap">
+                                <div class="slds-col slds-size_4-of-12">
+                                        <span>
+                                                <lightning:input type="picklist" label="Rating" value="{!v.rating}" />
+                                        </span>
+                                </div>
+                        </div>
+                </div>
+
+        </lightning:card>
+        <button class="slds-button slds-button_brand" onclick="{!c.myAction}">Create new</button>
+        <button class="slds-button slds-button_text-destructive">Cancel </button>
+
+</aura:component>

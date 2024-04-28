@@ -1,0 +1,16 @@
+<apex:page controller="MyOpportunityController">
+    <apex:form >
+        <apex:pageBlock title="Opportunity">
+            <apex:pageBlockTable value="{!OppList}" var="item">
+                <apex:column headerValue="Custom Button">
+                    <apex:commandButton value="Test"  action="{!Test}" rendered="{!IF(item.StageName=='Closed Won',true,false)}"/>
+                </apex:column>
+               
+                
+                <apex:column value="{!item.name}"/>
+                <apex:column value="{!item.Id}"/>
+                <apex:column value="{!item.Stagename}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+        </apex:form>
+    </apex:page>

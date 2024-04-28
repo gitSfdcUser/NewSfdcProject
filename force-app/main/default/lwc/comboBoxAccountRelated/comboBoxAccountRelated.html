@@ -1,0 +1,48 @@
+<template>
+<lightning-card title="ComboBox King">
+<lightning-combobox
+name="progress"
+label="Account available"
+value={value}
+placeholder="Select Progress"
+options={options}
+onchange={handleChange} ></lightning-combobox>
+<p>
+    <b> SELECTED VALUE IS:{value}</b>
+</p> 
+</lightning-card>
+
+<!--show and hide card of contact -->
+<template if:true={cardVisible}>
+<!--Contact datatable...-->
+<div style="height: 100px;">
+    <lightning-card>
+        <lightning-datatable
+        key-field="id"
+        columns={columns}
+        data={data}
+        >
+        
+        </lightning-datatable>
+        
+                </lightning-card>
+</div>
+
+
+<!--show and hide card of contact -->
+<template if:true={cardVisible2}>
+<!--Opportunity datatable...-->
+<div style="height: 200px;">
+    <lightning-card>
+        <lightning-datatable
+        key-field="id"
+        columns={columns2}
+        data={data2}
+        >
+        </lightning-datatable>
+
+    </lightning-card>
+</div>
+</template>
+</template>
+</template>

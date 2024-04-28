@@ -1,0 +1,9 @@
+<apex:page controller="CustomLookUpPageController" >
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageMessages />
+            AccountNAme:<apex:inputText value="{!accName}" title="NAME"/>
+            <apex:commandButton value="Confirm" action="{!LookUp}"/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

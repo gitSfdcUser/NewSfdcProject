@@ -1,0 +1,77 @@
+<!--This is for making it purely HTML5-->
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false"
+           applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+    <!--apex form-->
+    <apex:form id="theForm">
+
+        <!--javascript-->
+        <script  type="text/javascript">
+    </script>
+    
+        
+        <!--Html Lines-->
+        <html lang="en">
+            <head>
+                <!-- <meta charset="utf-8"/>-->
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <title>Record Compare</title>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                
+                <!--Style tag for background few-->
+                <style>
+                    body {
+                    background-color: Cyan!important;
+                    }
+                </style>
+                
+            </head>
+            <body class="container" style="width:95%" >
+                
+                <h5><a href="javascript:void(0);" onclick="window.history.back();">&lt; Go Back</a></h5>
+                
+                <div class="alert alert-danger" role="alert">
+                    You are new        
+                </div>
+                <div>
+                    <apex:commandButton action="{!userAccepted}" value="Yes" rerender="theForm" status="status" oncomplete="history.back();return false;"
+                                        style="color: #fff; background-color: #5cb85c; border-color: #4cae4c;user-select: none; background-image: none; border: 1px solid transparent; border-radius: 4px; display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: normal; line-height: 1.42857143; text-align: center; white-space: nowrap; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation;"/>
+                    <apex:commandButton action="{!userRejected}" value="Cancel" rerender="theForm" status="status1" oncomplete="history.back();return false;"
+                                        style="color: #fff; background-color: #dc3545; border-color: #4cae4c;user-select: none; background-image: none; border: 1px solid transparent; border-radius: 4px; display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: normal; line-height: 1.42857143; text-align: center; white-space: nowrap; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation;" />
+                </div>
+                
+                <div class="alert alert-danger" role="alert">
+                    message                </div>
+                
+                <apex:actionStatus id="status">
+                    <apex:facet name="start">
+                        <div style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.75; z-index: 1000; background-color: black;">
+                            &nbsp;
+                        </div>
+                        <div style="position: fixed; left: 0; top: 0; bottom: 0; right: 0; z-index: 1001; margin: 5% 10%">
+                            <img src="https://i.gifer.com/81RA.gif"/>
+                        </div>
+                    </apex:facet>
+                </apex:actionStatus>
+                
+                                <apex:actionStatus id="status1">
+                    <apex:facet name="start">
+                        <div style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.75; z-index: 1000; background-color: black;">
+                            &nbsp;
+                        </div>
+                      <div style="position: fixed; left: 0; top: 0; bottom: 0; right: 0; z-index: 1001; margin: auto; background-color: rgba(255, 255, 255, 0.5);">
+  <img src="https://media2.giphy.com/media/3o7bu3XilJ5BOiSGic/200w.webp?cid=ecf05e47kt1ljaj3e5v1c3mw92jr6rcf5fm2lx1tpbtpeo40&rid=200w.webp&ct=g" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 5%; max-width: 20px; height: auto;"/>
+</div>
+
+
+                    </apex:facet>
+                </apex:actionStatus>
+
+                
+                
+            </body>
+        </html>
+    </apex:form>
+</apex:page>

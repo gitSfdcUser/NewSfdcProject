@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="ParentComponent" icon-name="Standard icon">
+        <p class="slds-text-align_center"> count : {countValue}</p>
+      
+
+    </lightning-card>
+    <c-child-demo onsubstract = {handleDecrement}   
+    onadd = {handleIncrement} 
+    onmultiply = {handleProduct}
+                      > </c-child-demo>
+</template>

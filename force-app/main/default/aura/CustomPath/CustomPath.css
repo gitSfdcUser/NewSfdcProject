@@ -1,0 +1,18 @@
+/* YourComponentName.css */
+
+.THIS .pathCssClass {
+    /* Define custom styles for your custom class */
+padding-left: 31px;
+}
+/* YourComponentName.css */
+.THIS .slds-card {
+    max-height: 70%; /* Set a maximum height for the card */
+}
+
+/* Additional custom styles can be added here */
+
+.THIS .button1 {
+    /* Define custom styles for your custom class */
+margin-right: 10px;
+}
+/* Additional CSS rules can be added here */

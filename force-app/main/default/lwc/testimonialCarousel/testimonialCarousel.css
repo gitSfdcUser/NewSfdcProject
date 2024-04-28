@@ -1,0 +1,75 @@
+/* Apply global reset styles to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply background image to slider component */
+  .slider {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    background-image: url("https://wallpaperaccess.com/full/684821.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Apply styles to slide elements */
+  .slide {
+    width: 100%;
+    max-width: 800px;
+    height: 250px;
+    position: absolute;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  
+  .slide img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  /* Apply styles to button elements */
+  .btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+  }
+  
+  .btn:active {
+    transform: scale(1.1);
+  }
+  
+  .btn-prev {
+    top: 45%;
+    left: 2%;
+  }
+  
+  .btn-next {
+    top: 45%;
+    right: 2%;
+  }
+  
+  /* Apply styles to slide content */
+  .slide strong {
+    font-size: 16px;
+    font-weight: 600;
+  }

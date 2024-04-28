@@ -1,0 +1,26 @@
+<apex:page docType="html-5.0" applyHtmlTag="false" applyBodyTag="false"
+           showHeader="false" sidebar="false" standardStylesheets="false"
+           title="Unused Title">
+    
+    
+     <div class="slds-col--padded slds-p-top--large slds-size--1-of-1 slds-medium-size--1-of-1 cmq">
+                        <div class="slds-form-element slds-m-top--small">
+                            <div class="slds-m-around--small">
+                                <div class="section-title--divider headingtxt">
+                                    <b>Care Memo Questionnaire</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-col--padded slds-size--1-of-1 slds-medium-size--1-of-1 cmq">
+                        <div class="slds-form-element slds-m-top--small">
+                            <div class="slds-m-around--small">
+                                <div class="section-title--divider headingtxt">
+                                    <label class="slds-form-element__label" style = "font-size: 13px">  1. When was the member/RP introduced to Care Memo? </label>
+                                </div>
+                            </div>
+                        </div>
+    </div>
+    
+    
+</apex:page>

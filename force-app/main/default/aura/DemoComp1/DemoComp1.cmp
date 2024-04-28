@@ -1,0 +1,6 @@
+<aura:component >
+
+    <c:DemoComp/>
+        <hr/>
+	<h1>this is  other component</h1>
+</aura:component>

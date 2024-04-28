@@ -1,0 +1,16 @@
+<template>
+  <lightning-input type="search" label="Search" onchange={handleSearch}></lightning-input>
+  <ul>
+    <template for:each={filteredOptions} for:item="option">
+      <li key={option.value} onclick={handleOptionClick} data-value={option.value}>
+        {option.label}
+      </li>
+    </template>
+  </ul>
+  <div>
+    Selected Options:
+    <template for:each={selectedOptions} for:item="option">
+      <div key={option.value}>{option.label}</div>
+    </template>
+  </div>
+</template>

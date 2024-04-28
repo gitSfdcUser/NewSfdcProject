@@ -1,0 +1,50 @@
+<apex:page docType="html-5.0" applyHtmlTag="false" applyBodyTag="false"
+           showHeader="false" sidebar="false" standardStylesheets="false"
+           title="Unused Title">
+<html>
+  <head>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 3%;
+      }
+      th, td {
+        border: 1px solid black;
+        text-align: left;
+        padding: 8px;
+        word-wrap: break-word;
+        max-width: 100px;
+      }
+      th {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>A basic HTML table with word wrap</h2>
+
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkistuudoisssuuuuuuuuuuuuuuuuuuuudjkfjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuue</td>
+        <td>Maria Andeffffffffyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffrs</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+
+    <p>To understand the example better, we have added borders to the table.</p>
+  </body>
+</html>
+
+
+
+</apex:page>

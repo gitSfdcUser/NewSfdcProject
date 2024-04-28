@@ -1,0 +1,24 @@
+<apex:page controller="wrapchkcon">
+    <apex:form >
+        <apex:pageBlock >
+
+             
+           
+            <apex:pageBlockSection >
+                <apex:pageBlockTable value="{!lstwrapper}" var="w">
+                    <apex:column headerValue="CheckValue">
+                        <apex:inputcheckbox value="{!w.checked}"/>
+                    </apex:column>
+                    
+                       <apex:column headerValue="SAVE">
+                       <apex:commandButton value="Selectednames" action="{!selname}"/>
+                     </apex:column>
+                           
+                    <apex:column headerValue="Name">
+                        {!w.names}
+                    </apex:column>
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>        
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

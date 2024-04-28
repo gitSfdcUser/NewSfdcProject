@@ -1,0 +1,96 @@
+<aura:component controller="CustomPathController" implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId">
+    <aura:attribute name="variant" type="String" default="linear"/>
+    <aura:attribute name="hideUpdateButton" type="Boolean" default="true"/>
+    <aura:attribute name="stepName" type="String"/>
+    <!--Boolean attribute to indicate if modal is open or not 
+       default value is false as modal is closed when page is loaded 
+    -->
+    <aura:attribute name="isModalOpen" type="boolean" default="false"/>
+     
+    <div class="slds-m-around_xx-large">
+        <!--Use aura:if tag to display/hide popup based on isModalOpen value-->  
+        <aura:if isTrue="{!v.isModalOpen}">
+             
+            <!-- Modal/Popup Box starts here-->
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <!-- Modal/Popup Box Header Starts here-->
+                    <header class="slds-modal__header">
+                        <lightning:buttonIcon iconName="utility:close"
+                                              onclick="{! c.closeModel }"
+                                              alternativeText="close"
+                                              variant="bare-inverse"
+                                              class="slds-modal__close"/>
+                        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Edit Dependencies</h2>
+                    </header>
+                    <!--Modal/Popup Box Body Starts here-->
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        <p>
+                            <b>Modals/Popup Box are used to display content in a layer above the app. This paradigm is used in cases such as the creation or editing of a record, as well as various types of messaging and wizards.</b>
+                        </p>
+                        <!-- Use lightning:recordEditForm to display input fields -->
+                        <lightning:recordEditForm aura:id="recordEditForm"
+                                                  recordId="{!v.recordId}"
+                                                  objectApiName="Opportunity">
+                            <lightning:messages />
+                            <!-- Use lightning:inputField to display picklist field for StageName -->
+                            <lightning:inputField fieldName="StageName" />
+                            
+                            
+                            
+                                                   <!--     <lightning:inputField fieldName="Loss Reasons" />
+                                                        <lightning:inputField fieldName="Pause Date" />  -->
+
+                        </lightning:recordEditForm>
+                    </div>
+                    <!--Modal/Popup Box Footer Starts here-->
+                    <footer class="slds-modal__footer">
+                        <lightning:button variant="neutral"
+                                          label="Cancel"
+                                          title="Cancel"
+                                          onclick="{! c.closeModel }"/>
+                        <lightning:button variant="brand"
+                                          label="OK"
+                                          title="OK"
+                                          onclick="{!c.submitDetails}"/>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </aura:if>
+    </div>
+    
+    <!-- Card component -->
+    <article class="slds-card customCard">
+        
+        <div class="slds-card__header slds-grid slds-assistive-text">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__body">
+                    <h2 class="slds-card__header-title">
+                        <a href="#" class="slds-card__header-link slds-truncate" title="Card Header">
+                            <span>Card Header</span>
+                        </a>
+                    </h2>
+                </div>
+            </header>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">
+            <div class="slds-grid slds-gutters">
+                <div class="pathCssClass"> <!-- Adjusted column size to take up full width -->
+                    <span class="pathCss">  
+                        <lightning:path  aura:id="path" recordId="{!v.recordId}"
+                                         variant="{!v.variant}"
+                                         hideUpdateButton="{!v.hideUpdateButton}"
+                                         onselect="{!c.handleSelect}"
+                        />
+                    </span>
+                </div>
+                <div class="slds-align_absolute-center"> <!-- Adjusted column size and added alignment -->
+                    <span class="button1">
+                        <lightning:button variant="brand" label="Change Closed Stage" title="Change Closed Stage" onclick="{!c.handleStageChange}" />
+                    </span>
+                </div>
+            </div>        
+        </div>
+    </article>
+</aura:component>

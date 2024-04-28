@@ -1,0 +1,92 @@
+<template>
+    <div class ="blue-border">
+   <div class="light-blue-border">
+   <lightning-card>
+      <h1 slot="title">Mega Fortune Fund</h1>
+
+
+<svg
+  viewBox="0 0 34 64"
+  xmlns="http://www.w3.org/2000/svg"
+  width="25"
+  height="25"
+  fill="blue"
+>
+  <path d="M48 6H40V5a3 3 0 00-3-3H27a3 3 0 00-3 3v1H16a2 2 0 00-2 2v2a2 2 0 002 2h1v38a3 3 0 003 3h30a3 3 0 003-3V12h1a2 2 0 002-2v-2a2 2 0 00-2-2zm-16-1a1 1 0 011-1h10a1 1 0 011 1v1H32zm14 44H18V14h28v35a1 1 0 001 1h4a1 1 0 001-1V11a1 1 0 00-1-1H12a1 1 0 00-1 1v47a1 1 0 001 1h32a1 1 0 001-1v-3a1 1 0 00-1-1z"/>
+  <path d="M23 52a1 1 0 001-1V24a1 1 0 10-2 0v27a1 1 0 001 1zM32 52a1 1 0 001-1V24a1 1 0 10-2 0v27a1 1 0 001 1zM41 52a1 1 0 001-1V24a1 1 0 10-2 0v27a1 1 0 001 1z"/>
+</svg>
+
+
+
+
+
+
+      <div class="slds-grid slds-gutters slds-p-around_medium">
+         <div class="slds-col">
+            <span>
+               <strong> Description</strong>
+               <p> Though MegaFortune we invest in large and potential multi-bagger opportunities with proven track records of compounding investor waelth at 18-20% CAGR. </p>
+               <div class="slds-p-top_small">
+                    <strong> Performance</strong>
+               </div>
+              
+               <div class="slds-p-around_medium">
+                  <table class="slds-table slds-table_cell-buffer slds-table_bordered" aria-label="Example table of Accounts with striped rows">
+                     <tbody>
+                        <template for:each={funds} for:item="fund">
+                           <tr key={fund.Id} class="slds-hint-parent slds-box">
+                              <th data-label="Fund Name" scope="row">
+                                 <div class="slds-truncate" title={fund.Name}>
+                                    <p>{fund.Name}</p>
+                                 </div>
+                              </th>
+                              <td data-label="Fund Details" class="slds-text-align_left">
+                                 <div class="slds-truncate" title={fund.Type}>
+                                    <p>{fund.Type} </p>
+                                 </div>
+                              </td>
+                           </tr>
+                        </template>
+                     </tbody>
+                  </table>
+               </div>
+               <strong> Fund Composition</strong>
+
+       <!--       Add your child component below
+            <c-child-component> <c-child-component> 
+                and remove  dummy img tag  -->
+
+              <img src="https://media.istockphoto.com/id/1225502447/vector/bar-chart-graph-diagram-statistic-business-annual-report-colorful-infographic-on-world-globe.jpg?s=1024x1024&w=is&k=20&c=x7jj_5IX_94XLnuxpWbL8uSTrVu-swXPeGZH0uKu9Lw="/>
+
+               <div class="slds-p-around_medium">
+   
+               <div class="slds-grid slds-align-vertical-center">
+
+                     <div class="slds-col">
+                        
+
+<div class="slds-truncate" title="Cloudhub">
+                           <strong><a href="#" tabindex="-1">View Reports</a></strong>
+                        </div>
+                     </div>
+                     <div class="slds-col slds-text-align_right">
+                        <div>
+                           <lightning-button variant="brand" label="Rebalance Portfolio" title="Rebalance Portfolio" onclick={handleClick}></lightning-button>
+                        </div>
+                        </div>
+                     </div>
+                  </div>
+            </span>
+            </div>
+            <div class="slds-col">
+               <span>
+                  <div class="slds-p-around_medium">
+                    <strong>Fund performance </strong>
+                  </div>
+               </span>
+            </div>
+         </div>
+   </lightning-card>
+   </div>
+    </div>
+</template>

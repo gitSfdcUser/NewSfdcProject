@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <aura:method name ="show" action="{!c.showMessage}" access="PUBLIC">
+        <aura:attribute name="message" type="string" default="" />
+    </aura:method>
+   <aura:method name ="error" action="{!c.showErrorMessage}" access="PUBLIC">
+        <aura:attribute name="message" type="string" />
+    </aura:method>
+    <aura:method name ="remove" action="{!c.removeMessage}" access="PUBLIC"/>
+    <div aura:id = "messages"/>
+</aura:component>

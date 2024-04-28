@@ -1,0 +1,25 @@
+<template>
+<section role="dialog" tabindex="-1" aria-modal="true" aria-labelledby="modal-heading-01" class="slds-modal slds-fade-in-open slds-modal_large">
+      class="slds-modal slds-fade-in-open">
+      <!-- modal start -->
+      <div class="slds-align_absolute-center">
+         <div style="height: 500px; width: 800px">
+
+
+            <template if:true={isShowModal}>
+
+               <lightning-modal-header label="My Modal Heading"></lightning-modal-header>
+               <lightning-modal-body>
+                  Content: {content}
+                  <c-opp-rec-lwc-child></c-opp-rec-lwc-child>
+               </lightning-modal-body>
+               <lightning-modal-footer>
+                  <lightning-button label="Cancel" onclick={hideModalBox}></lightning-button>
+               </lightning-modal-footer>
+            </template>
+         </div>
+      </div>
+      <!-- modal end -->
+   </section>
+
+</template>

@@ -1,0 +1,223 @@
+.container{
+  background-color: #235982;
+  padding: 10px;
+  margin: 20px;
+  justify-content: space-between;
+  
+}
+.img-container{
+  margin-right: 49px;
+  margin-bottom: 9px;
+
+
+}
+h2{
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+li{
+  margin: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-decoration: none;
+
+}
+.ss{
+  display: flex;
+  text-decoration: none;
+}
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+ background-color:#235982;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+  
+}
+
+.logo-container {
+  
+  margin-left: 40px;
+  
+}
+
+.company-info {
+  text-align: center;
+}
+
+.company-name {
+  font-size: 16px;
+  margin-right: 156px;
+}
+
+.success-message {
+  font-size: 14px;
+}
+
+.success-message span {
+  font-weight: bold;
+}
+
+.office-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.address {
+  margin-bottom: 10px;
+}
+
+.contact-details a {
+  text-decoration: none;
+}
+.THIS .slds-card__header{
+        background-color:white;
+}
+.THIS .slds-card__body{
+        background-color: white;
+}
+.THIS .slds-card__footer{
+        background-color: white;
+}
+.verticalOfhr {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+.vertical-line {
+  width: 1px;
+  height: 130px; /* Adjust the height as needed */
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-left: 100px;
+}
+
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+.footer_icon{
+  display: flex;
+  margin: 30px;
+  padding: 15px;
+}
+.footer_tag{
+  display: flex;
+  margin-left: 160px;
+  margin-right: 60px;
+  align-items: center;
+  
+}
+.socialFooter{
+  display: flex;
+  size: 8px;
+ }
+ .socialFooter img{
+   border-radius: 16px;
+   margin: 8px;
+}
+ .socialLink img{
+   font-size: 10px;
+ }
+ .active, .menubar ul li:hover
+		{
+						border-radius: 3px;
+		}
+		.sub-menu{
+			display: none;
+      font-size: 14px;
+      margin: 7px;
+      margin-left: 128px;
+
+		}
+		.menubar ul li:hover .sub-menu{
+			display: block;
+			position: absolute;
+			background:whitesmoke;
+			margin-top: 8px;
+			margin-left: -10px;
+      color: black;
+      
+		}
+		.menubar ul li:hover .sub-menu ul{
+			display: block;
+			margin: 10px;
+    
+
+		}
+		.menubar ul li:hover .sub-menu ul{
+			width: 150px;
+			padding: 10px;
+			border-bottom: 1px dotted ghostwhite;
+			background: transparent;
+			border-radius: 0;
+			text-align: center;
+
+		
+		}
+    .menubar{
+		text-align: center;
+
+		}
+		.menubar ul{
+			display: inline-flex;
+			list-style: none;
+			color: black;
+      text-decoration: none;
+      align-items: center;
+      
+		}
+    .footer_no{
+      margin-left: 260px;
+    }
+    .ff{
+      margin-left: 80px;
+      grid-row-gap: 23px;
+      
+    }
+    .avtive{
+      color: whitesmoke;
+      font-weight: bold;
+    }
+    @media (max-width:360px){
+
+  .office-info{
+    font-size: 100%;
+    width: 360px;
+    text-align: center;
+
+  }
+  @media (max-width:360px){
+
+  .horizontal-line{
+    width: 360px;
+  
+  }
+  }  @media (max-width:360px){
+  .img-container{
+    width: 380px;
+  }
+  
+  .contact-section{
+    width: 400px;
+    text-align: center;
+
+  }
+  .logo-container{
+    font-size: 60%;
+    width: 420px;
+    text-align: center;
+  }
+  
+  .ss{
+    width: 360px;
+    font-size: 100px;
+  }
+  }
+
+  
+
+}

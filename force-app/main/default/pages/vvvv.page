@@ -1,0 +1,6 @@
+<apex:page >
+  <!--  <video class="elementor-background-video-hosted elementor-html5-video" autoplay="true" muted="true" playsinline="true" loop="true" src="https://www.danocloudtechnology.com/wp-content/uploads/2022/07/video.mp4" style="width: 1263.33px; height: 710.623px;"></video> -->
+    <video class="elementor-background-video-hosted elementor-html5-video" autoplay="true" muted="true" playsinline="true" loop="true" src="https://www.danocloudtechnology.com/wp-content/uploads/2022/07/video.mp4" style="width: 1263.33px; height: 710.623px;"></video>
+
+
+</apex:page>

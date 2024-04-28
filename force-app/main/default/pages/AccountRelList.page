@@ -1,0 +1,9 @@
+<apex:page standardController="Account" extensions="RelatedListController" showHeader="true" sidebar="false" standardStylesheets="true">
+    <apex:pageBlock title="Related Contacts">
+        <apex:pageBlockTable value="{!relatedContacts}" var="contact">
+            <apex:column value="{!contact.Name}" />
+            <apex:column value="{!contact.Email}" />
+            <!-- Add more columns as needed -->
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

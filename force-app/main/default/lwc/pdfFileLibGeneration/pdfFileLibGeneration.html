@@ -1,0 +1,21 @@
+<template>
+    <div style="width:100%;height:100%;background-color:white;padding-top: 1%;padding-bottom: 9%;">
+        <div style="width: 500px; margin:auto;border: 1px solid #333333;padding:35px; margin-top:80px">
+            <template lwc:if={enableForm}>
+                <h1 style="font-size:x-large">Generate TRF</h1> <br />
+                <label>Please enter the quantity of forms you’d like to create below.<abbr title="required"
+                        class="slds-required">*</abbr> <br /> The maximum is 10 forms per download.</label>
+                <lightning-input type="number" name="number" variant="label-hidden" value={trfCount} min="1" max="10"
+                    onchange={handleTrfCountChange} required style="width: 50%"></lightning-input>
+                <br />
+                <lightning-button style="margin-left:0px" variant="Brand" label="Download TRFs" title="Download TRF"
+                    onclick={downloadPDF} class="slds-m-left_x-small"></lightning-button>
+                <lightning-spinner if:true={isLoading} variant="brand" size="medium"></lightning-spinner>
+            </template>
+            <template lwc:else>
+                {accessMsg}
+            </template>
+        </div>
+    </div>
+
+</template>

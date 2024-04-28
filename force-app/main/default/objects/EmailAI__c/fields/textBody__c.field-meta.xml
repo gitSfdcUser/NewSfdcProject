@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>textBody__c</fullName>
+    <defaultValue>&quot;Hi Team,&quot; &amp; BR() &amp; &quot;Today&apos;s Status Update:&quot;&amp; BR() &amp; &quot;Today, I learn about salesforce&quot;&amp; BR() &amp; &quot;&quot; &amp; BR() &amp; &quot;office end time - 06:00 PM&quot;&amp; BR() &amp; &quot;Thank you.&quot;</defaultValue>
+    <description>&quot;Hi Team
+ Today&apos;s Status Update
+Today, I learn about salesforce
+office end time - 06:00 PM
+Thank you.&quot;
+&quot;abc&quot; &amp; BR() &amp; &quot;xyz&quot;</description>
+    <externalId>false</externalId>
+    <label>textBody</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

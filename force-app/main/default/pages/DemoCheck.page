@@ -1,0 +1,16 @@
+<apex:page docType="html-5.0" applyHtmlTag="false" applyBodyTag="false" showHeader="false" sidebar="false" standardStylesheets="false" title="Unused Title" controller="AccountController">
+    <html>
+        <head>
+            <title>Unused Title</title>
+        </head>
+        <body>
+            <div class="slds-form-element slds-p-right--small slds-p-left--small">
+                <label class="slds-form-element__label" for="CDXCmt">Comment</label>
+                <div class="slds-form-element__control">
+                    <pre class="slds-textarea" id="CDXCmt">{!accountRecord.Name}</pre>
+                    <pre class="slds-textarea" id="CDXCmtro">{!accountRecord.Name}</pre>
+                </div>
+            </div>
+        </body>
+    </html>
+</apex:page>

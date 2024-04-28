@@ -1,0 +1,108 @@
+/* navigationHeader.css */
+.header {
+    background-color: #950c0ce9;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+div{
+    color: magenta;
+}
+template{
+    color: black;
+}
+body{
+    color: red;
+}
+h1{
+    color: aqua;
+    border: 10 px solid violet ;
+}
+div{
+        border: 10 px solid violet ;
+}
+.header{
+    background-color: #0c1ae3e9 !important;
+}
+.header{
+    background-color: #1bc746e9;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    font-size: 18px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+}
+.lightSpeedIn {
+  -webkit-animation-name: lightSpeedIn;
+  animation-name: lightSpeedIn;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes lightSpeedIn {
+  0% {
+  -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+  transform: translate3d(100%, 0, 0) skewX(-30deg);
+  opacity: 0;
+  }
+  60% {
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);
+  opacity: 1;
+  }
+  80% {
+  -webkit-transform: skewX(-5deg);
+  transform: skewX(-5deg);
+  opacity: 1;
+  }
+  100% {
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  }
+  @keyframes lightSpeedIn {
+  0% {
+  -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+  transform: translate3d(100%, 0, 0) skewX(-30deg);
+  opacity: 0;
+  }
+  60% {
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);
+  opacity: 1;
+  }
+  80% {
+  -webkit-transform: skewX(-5deg);
+  transform: skewX(-5deg);
+  opacity: 1;
+  }
+  100% {
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  }

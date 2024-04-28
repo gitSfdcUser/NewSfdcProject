@@ -1,0 +1,32 @@
+<!-- navigationHeader.html -->
+<template>
+<header class="header lightSpeedIn">
+    <div class="logo">
+            <h1>FurnitureVerse 
+        <img src={furnitureVerseLogoUrl} width = "6%" class="slds-p-left_medium"/>
+            </h1> 
+            </div>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="/">Home</a></li>
+            <li class="nav-item"><a href="/about">About</a></li>
+
+                    <!-- services dropdown implementation -->
+            <li class="nav-item">
+                
+                <a href="/services"  onclick={handleOnClick}>Services</a>
+            <div if:true={displayServiceList}>
+        <ul class="service-list">
+    <li class="service-item"><a href="/">Career</a></li>
+    <li class="service-item"><a href="/choose">Why choose us</a></li>
+        </ul>
+
+            </div>
+
+                </li>
+
+            <li class="nav-item"><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+</template>

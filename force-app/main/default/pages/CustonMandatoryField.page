@@ -1,0 +1,14 @@
+<apex:page standardController="Contact" extensions="CustonMandatoryFieldController">
+ <apex:form >
+   <apex:pageblock >
+      <apex:pageMessages id="showmsg"></apex:pageMessages>
+         <apex:panelGrid columns="2">
+           contact FirstName: <apex:inputText value="{!con.Firstname}"/>
+           contact LastName: <apex:inputText value="{!con.Lastname}"/>
+           contact Phone: <apex:inputText value="{!con.phone}"/>
+             contact Account Phone: <apex:inputText value="{!con.phone}"/>
+           <apex:commandButton value="Save it my jarvis" action="{!save}" style="width:90px" rerender="showmsg"/>
+         </apex:panelGrid>
+    </apex:pageblock>
+ </apex:form>
+</apex:page>

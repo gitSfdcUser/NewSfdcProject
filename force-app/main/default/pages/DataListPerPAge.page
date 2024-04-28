@@ -1,0 +1,12 @@
+<apex:page controller="DataListController">
+<apex:form >
+<apex:pageblock title="List of Accounts">
+<apex:pageblockTable value="{!acc1}" var="a">
+<apex:column value="{!a.name}"/>
+</apex:pageblockTable>
+<apex:commandButton value="acc1" action="{!acc2}"/>
+<apex:commandButton value="acc2" action="{!acc3}"/>
+<apex:commandButton value="acc3" action="{!acc4}"/>
+</apex:pageblock>
+</apex:form>
+</apex:page>

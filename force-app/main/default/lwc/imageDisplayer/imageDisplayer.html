@@ -1,0 +1,34 @@
+<!-- imageFromContentDocument.html -->
+<template>
+    <lightning-card>Display an image from 
+        ContentDocument {imageUrl}</lightning-card>
+
+    <template if:true={contentDocImage}>
+        <img src={imageUrl}/>
+    </template>
+
+<template for:each={OpportunityList} for:item="item" for:index="index">
+            <div key={item.Id} class="slds-p-around_medium">
+                <div class="Doc_card">
+                    <div class="_blog__figure">
+                    <img src=' https://danocloud5-dev-ed.my.salesforce.com/sfc/servlet.shepherd/version/download/0685g00000EUZlsAAH' class="slds-avatar slds-avatar_circle" alt="Doctor Image"/></div>
+                    <p class="heading">Dr. {item.Name}</p>
+                   
+                    <div style="padding-top: 30px;">
+                        <lightning-button variant="success" label="View Profile" title="View Profile" data-outer={index} onclick={onSelectHandle} class="slds-m-left_x-small"></lightning-button>
+                    </div>
+                </div>
+            </div>
+           
+        </template>
+
+
+
+    <lightning-card>Display a resized image from ContentDocument
+        {resizedImageUrl}</lightning-card>
+
+    <template if:true={contentDocImage}>
+        <img src={resizedImageUrl}/>
+    </template>
+
+</template>

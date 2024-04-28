@@ -1,0 +1,20 @@
+<template>
+<lightning-card title="This is a  function demo  data table of accounts">
+<div class ="slds-p-around__medium">
+    <template if:true={accountList}>
+<template for:each={accountList} for:item="account">
+<div title="This is a data table" class="slds-box slds-box_xx-small" key={account.id}>
+<p> <strong>ID: </strong>{account.Id}</p>
+<p> <strong>Name: </strong>{account.Name}</p>
+<p> <strong>Industry: </strong>{account.newType}</p>
+<p> <strong>DemoPic__c: </strong>{account.DemoPic__c}</p>
+
+
+
+
+</div>
+</template>
+    </template>
+</div>
+</lightning-card>
+</template>

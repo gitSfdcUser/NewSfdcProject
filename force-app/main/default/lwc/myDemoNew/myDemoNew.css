@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #fff;
+}
+
+.blob {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	background: #fff;
+	text-align: center;
+	display: flex;
+	background: #a044ff;
+	justify-content: center;
+	align-items: center;
+	border-radius: 55% 30% 70% 15% / 10% 60% 30% 60%;
+	svg {
+		transform-origin: center center;
+		transform: scale(2);
+		.small {
+			transform-origin: right bottom;
+			transform: scale(0.75);
+		}
+		.smaller {
+			transform-origin: right bottom;
+			transform: scale(0.6);
+		}
+		.bottom {
+			transform: translate(165px, 125px)
+		}
+	}
+}

@@ -1,0 +1,13 @@
+.slds-table_cell-buffer td,
+    .slds-table_cell-buffer th {
+        padding: 0.75rem 1.5rem; /* Adjust the padding values as needed */
+    }
+        /* myComponent.css */
+.blue-border {
+    border: 1px solid rgb(70, 70, 219); /* Light blue color */
+
+}
+.light-blue-border {
+        border: 15px solid rgb(146, 170, 219);
+    border-radius: 4px;
+}

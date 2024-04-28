@@ -1,0 +1,50 @@
+<apex:page applyHtmlTag="false" applyBodyTag="false"
+           showHeader="false" sidebar="false" standardStylesheets="false"
+           title="Unused Title">
+
+
+<div class="flex-container">
+  <div class="flex-column">
+    <div class="msq">First Div</div>
+    <div class="meq">Second Div</div>
+  </div>
+  <div class="flex-column">
+    <div class="cmq">Third Div</div>
+  </div>
+</div>
+
+    
+    
+    <style>
+    .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-column {
+  width: calc(50% - 5px);
+  display: flex;
+  flex-direction: column;
+}
+
+.msq, .meq, .cmq {
+  width: 100%;
+  display: none;
+}
+
+.cmq {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .flex-column {
+    width: 100%;
+  }
+}
+
+    
+    
+    
+    </style>
+</apex:page>

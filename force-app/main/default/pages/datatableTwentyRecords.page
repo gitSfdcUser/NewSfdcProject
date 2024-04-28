@@ -1,0 +1,16 @@
+<apex:page controller="twentyAccController">
+<apex:sectionHeader title="Account List"/>
+<apex:form >
+<apex:outputPanel layout="block" style="overflow:auto;width:900px;height:100px">
+<apex:dataTable value="{!accountList}" var="a" >
+<apex:facet name="header">
+Account Name
+</apex:facet>
+<apex:column value="{!a.Name}">
+</apex:column>
+<apex:column value="{!a.Id}">
+</apex:column>
+</apex:dataTable> 
+ </apex:outputPanel>
+  </apex:form>
+   </apex:page>

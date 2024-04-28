@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <!-- Attribute to store the base64 encoded HTML content -->
+    <aura:attribute name="iframeHtmlContent" type="String"/>
+    
+    <!-- Use aura:unescapedHtml to display the base64 encoded HTML content -->
+    <aura:unescapedHtml value="{!v.iframeHtmlContent}"/>
+    
+    <!-- Create an iframe to display the HTML content -->
+    <iframe src="{!'data:text/html;base64,' + v.iframeHtmlContent}" width="100%" height="300px"/>
+</aura:component>

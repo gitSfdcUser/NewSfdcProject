@@ -1,0 +1,36 @@
+<template>
+    <lightning-card title="Child component" icon-name="action:upload">
+    <lightning-button class="slds-p-horizonaltal_medium"
+                            label="Susbtract"
+                            icon-name="utility:dash"
+                          onclick={HandleSubstract}
+                           >
+                           
+    </lightning-button>
+    <lightning-button class="slds-p-horizonaltal_medium"
+    label="Additiion"
+    icon-name="utility:add"
+  onclick={HandleAdditiion}
+   >
+   
+</lightning-button>
+
+<lightning-button
+                    label="2"
+                    icon-name="utility:close"
+                    value="2"
+                    onclick={HandleMultiply}
+                    
+></lightning-button>
+
+
+<lightning-button
+                    label="10"
+                    icon-name="utility:close"
+                    value="10"
+                    onclick={HandleMultiply}
+                    
+></lightning-button>
+                    
+</lightning-card>
+</template>

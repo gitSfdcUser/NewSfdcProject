@@ -1,0 +1,9 @@
+<apex:page controller="SimpleExample2">
+    <apex:form >
+        <apex:pageBlock title="Object properties">
+            <apex:pageBlockTable value="{!fields}" var="a">
+                <apex:column value="{!a}" headerValue="fields"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>        
+    </apex:form>
+</apex:page>

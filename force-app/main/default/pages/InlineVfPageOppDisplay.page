@@ -1,0 +1,28 @@
+<apex:page StandardController="Opportunity" recordSetVar="opp" extensions="InlineVfcontroller">
+<apex:form >
+<apex:pageBlock title="List of Opportunity">
+<apex:pageblocktable value="{!opp}" var="o">
+<apex:column value="{!o.name}"/>
+<apex:column >    
+ <apex:inputField value="{!o.StageName}"  id="Warning">
+         <!--   <apex:actionSupport event="onclick" action="{!DisplayError}" reRender="Opportunty,msgs" status="stat"/> -->
+                 <apex:actionSupport event="onchange" action="{!DisplayTest}" reRender="Opportunty,msgs" status="stat"/>
+
+           </apex:inputField>  
+    
+    <apex:inputField value="{!o.name}"  id="NewOne"/>
+
+    
+    
+
+               <apex:outputText styleClass="redAlert" value="THIS IS WHERE THE STATIC MESSAGE WILL RESIDE"/><br/><BR/>
+  
+    
+     </apex:column>   
+<apex:column value="{!o.CloseDAte}"/>
+</apex:pageblocktable>
+<apex:inlineEditSupport event="ondblClick"/>
+</apex:pageBlock>
+  <apex:commandButton value="Save it my Jarvis" action="{!Quicksave}"/>
+</apex:form>
+</apex:page>

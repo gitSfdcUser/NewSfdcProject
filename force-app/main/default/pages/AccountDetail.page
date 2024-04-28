@@ -1,0 +1,10 @@
+<apex:page standardController="Account" tabstyle="Account">
+   <apex:form >
+   <apex:tabPanel >
+  
+   <apex:tab label="details">
+   <apex:detail title="True" relatedList="true"/>
+   </apex:tab>
+    </apex:tabPanel>
+   </apex:form>
+</apex:page>

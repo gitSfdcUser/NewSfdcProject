@@ -1,0 +1,135 @@
+<template>
+    <template if:true={isRecordTypeA}>
+        <!-- Template for Record Type A -->
+        {caseRecordTypeId}
+        {recordId}
+    <lightning-card variant="Narrow" title="Hello" icon-name="standard:case">
+    <div class="slds-box">
+      <h2 class="slds-text-heading_medium slds-p-bottom_medium">Edit Case</h2>
+      <lightning-record-edit-form object-api-name="Case" record-id={recordId} layout-type="Full" onsubmit={handleSubmit}>
+        <div class="slds-grid slds-gutters">
+          <div class="slds-col slds-size_1-of-2">
+           <lightning-input-field field-name="CaseNumber" disabled></lightning-input-field>
+                    <lightning-input-field field-name="Subject" required></lightning-input-field>
+                    <lightning-input-field field-name="Description"  value="Default A" variant="textarea"></lightning-input-field>
+                    <lightning-input-field field-name="Priority"></lightning-input-field>
+                    <lightning-input-field field-name="Type"></lightning-input-field>
+                    <lightning-input-field field-name="Status"></lightning-input-field>
+                    <lightning-input-field field-name="Origin"></lightning-input-field>
+                    <lightning-input-field field-name="Reason"></lightning-input-field>
+                    <lightning-input-field field-name="OwnerId"></lightning-input-field>
+                    <lightning-input-field field-name="ContactId"></lightning-input-field>
+                    <lightning-input-field field-name="AccountId"></lightning-input-field>
+            <lightning-input-field field-name="Type" onchange={handleTypeChange}></lightning-input-field>
+          </div>
+          <div class="slds-col slds-size_1-of-2">
+             <lightning-input-field field-name="AssetId"></lightning-input-field>
+                    <lightning-input-field field-name="Product__c"></lightning-input-field>
+                    <lightning-input-field field-name="SuppliedName"></lightning-input-field>
+                    <lightning-input-field field-name="SuppliedEmail"></lightning-input-field>
+                    <lightning-input-field field-name="SuppliedPhone"></lightning-input-field>
+                    <lightning-input-field field-name="ClosedDate"></lightning-input-field>
+                    <lightning-input-field field-name="Closed_Reason__c"></lightning-input-field>
+                    <lightning-input-field field-name="CreatedDate" disabled></lightning-input-field>
+                    <lightning-input-field field-name="CreatedBy.Name" disabled></lightning-input-field>
+                    <lightning-input-field field-name="LastModifiedDate" disabled></lightning-input-field>
+                    <lightning-input-field field-name="LastModifiedBy.Name" disabled></lightning-input-field>
+          </div>
+        </div>
+        <div class="slds-m-top_medium slds-align_absolute-center">
+          <lightning-button variant="brand" type="submit" label="Save"></lightning-button>
+        </div>
+      </lightning-record-edit-form>
+    </div>
+  </lightning-card>
+</template>
+
+    <template if:true={isRecordTypeB}>
+        <!-- Template for Record Type B -->
+        
+    <lightning-card variant="Narrow" title="Hello" icon-name="standard:account">
+    <div class="slds-box">
+      <h2 class="slds-text-heading_medium slds-p-bottom_medium">Edit Case</h2>
+      <lightning-record-edit-form object-api-name="Case" record-id={recordId} layout-type="Full" onsubmit={handleSubmit}>
+        <div class="slds-grid slds-gutters">
+          <div class="slds-col slds-size_1-of-2">
+           <lightning-input-field field-name="CaseNumber" disabled></lightning-input-field>
+                    <lightning-input-field field-name="Subject" required></lightning-input-field>
+                    <lightning-input-field field-name="Description"  value="Default B" variant="textarea"></lightning-input-field>
+                    <lightning-input-field field-name="Priority"></lightning-input-field>
+                    <lightning-input-field field-name="Type"></lightning-input-field>
+                    <lightning-input-field field-name="Status"></lightning-input-field>
+                    <lightning-input-field field-name="Origin"></lightning-input-field>
+                    <lightning-input-field field-name="Reason"></lightning-input-field>
+                    <lightning-input-field field-name="OwnerId"></lightning-input-field>
+                    <lightning-input-field field-name="ContactId"></lightning-input-field>
+                    <lightning-input-field field-name="AccountId"></lightning-input-field>
+            <lightning-input-field field-name="Type" onchange={handleTypeChange}></lightning-input-field>
+          </div>
+          <div class="slds-col slds-size_1-of-2">
+             <lightning-input-field field-name="AssetId"></lightning-input-field>
+                    <lightning-input-field field-name="Product__c"></lightning-input-field>
+                    <lightning-input-field field-name="SuppliedName"></lightning-input-field>
+                    <lightning-input-field field-name="SuppliedEmail"></lightning-input-field>
+                    <lightning-input-field field-name="SuppliedPhone"></lightning-input-field>
+                    <lightning-input-field field-name="ClosedDate"></lightning-input-field>
+                    <lightning-input-field field-name="Closed_Reason__c"></lightning-input-field>
+                    <lightning-input-field field-name="CreatedDate" disabled></lightning-input-field>
+                    <lightning-input-field field-name="CreatedBy.Name" disabled></lightning-input-field>
+                    <lightning-input-field field-name="LastModifiedDate" disabled></lightning-input-field>
+                    <lightning-input-field field-name="LastModifiedBy.Name" disabled></lightning-input-field>
+          </div>
+        </div>
+        <div class="slds-m-top_medium slds-align_absolute-center">
+          <lightning-button variant="brand" type="submit" label="Save"></lightning-button>
+        </div>
+      </lightning-record-edit-form>
+    </div>
+  </lightning-card>
+</template>
+    
+    <template if:true={isRecordTypeC}>
+        <!-- Template for Record Type C -->
+        
+    <lightning-card variant="Narrow" title="Hello" icon-name="standard:account">
+    <div class="slds-box">
+      <h2 class="slds-text-heading_medium slds-p-bottom_medium">Edit Case</h2>
+      <lightning-record-edit-form object-api-name="Case" record-id={recordId} layout-type="Full" onsubmit={handleSubmit}>
+        <div class="slds-grid slds-gutters">
+          <div class="slds-col slds-size_1-of-2">
+           <lightning-input-field field-name="CaseNumber" disabled></lightning-input-field>
+                    <lightning-input-field field-name="Subject" required></lightning-input-field>
+                    <lightning-input-field field-name="Description"  value="Default C" variant="textarea"></lightning-input-field>
+                    <lightning-input-field field-name="Priority"></lightning-input-field>
+                    <lightning-input-field field-name="Type"></lightning-input-field>
+                    <lightning-input-field field-name="Status"></lightning-input-field>
+                    <lightning-input-field field-name="Origin"></lightning-input-field>
+                    <lightning-input-field field-name="Reason"></lightning-input-field>
+                    <lightning-input-field field-name="OwnerId"></lightning-input-field>
+                    <lightning-input-field field-name="ContactId"></lightning-input-field>
+                    <lightning-input-field field-name="AccountId"></lightning-input-field>
+            <lightning-input-field field-name="Type" onchange={handleTypeChange}></lightning-input-field>
+          </div>
+          <div class="slds-col slds-size_1-of-2">
+             <lightning-input-field field-name="AssetId"></lightning-input-field>
+                    <lightning-input-field field-name="Product__c"></lightning-input-field>
+                    <lightning-input-field field-name="SuppliedName"></lightning-input-field>
+                    <lightning-input-field field-name="SuppliedEmail"></lightning-input-field>
+                    <lightning-input-field field-name="SuppliedPhone"></lightning-input-field>
+                    <lightning-input-field field-name="ClosedDate"></lightning-input-field>
+                    <lightning-input-field field-name="Closed_Reason__c"></lightning-input-field>
+                    <lightning-input-field field-name="CreatedDate" disabled></lightning-input-field>
+                    <lightning-input-field field-name="CreatedBy.Name" disabled></lightning-input-field>
+                    <lightning-input-field field-name="LastModifiedDate" disabled></lightning-input-field>
+                    <lightning-input-field field-name="LastModifiedBy.Name" disabled></lightning-input-field>
+          </div>
+        </div>
+        <div class="slds-m-top_medium slds-align_absolute-center">
+          <lightning-button variant="brand" type="submit" label="Save"></lightning-button>
+        </div>
+      </lightning-record-edit-form>
+    </div>
+  </lightning-card>
+</template>
+    
+</template>

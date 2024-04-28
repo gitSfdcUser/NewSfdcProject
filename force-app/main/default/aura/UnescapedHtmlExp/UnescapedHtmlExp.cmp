@@ -1,0 +1,25 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global">
+
+    <aura:attribute name="cval" type="String"/>
+    <aura:attribute name="isModalOpen" type="Boolean" default="false"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.myAction}" />
+    <aura:if isTrue="{!v.isModalOpen}">
+        <!-- Modal -->
+        <section role="dialog" tabindex="-1" aria-modal="true" aria-labelledby="modal-heading-01" class="slds-modal slds-fade-in-open slds-modal_medium">
+            <div class="slds-modal__container">
+                <div class="slds-modal__header slds-grid slds-grid_align-spread">
+                    <h1 id="modal-heading-01" class="slds-modal__title slds-hyphenate">Modal header</h1>
+                    <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" onclick="{!c.closeModal}">
+                        <span class="slds-assistive-text">Cancel and close</span>
+                    </button>
+                </div>
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                    <aura:unescapedHtml value="{!v.cval}" />
+                </div>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+        <!-- Modal Ends -->
+    </aura:if>
+</aura:component>

@@ -1,0 +1,18 @@
+<!-- myVfPage.page -->
+<apex:page controller="MyController" renderAs="PDF">
+    <apex:outputText value="{!PreRenderedHTMLContent}" escape="false"/>
+
+    <apex:includeLightning />
+
+    <div id="lightning"/>
+    <script>
+        $Lightning.use("c:LwcWrapperApp", function() {
+            $Lightning.createComponent("c:demoPurpose", {},
+                "lightning",
+                function(cmp) {
+                    console.log('Component created successfully');
+                }
+            );
+        });
+    </script>
+</apex:page>

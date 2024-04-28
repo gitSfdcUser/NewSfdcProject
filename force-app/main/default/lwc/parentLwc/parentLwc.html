@@ -1,0 +1,25 @@
+<template>
+<lightning-card>
+    <lightning-input
+                        class="slds-p-horizontal_small"
+                        label="Set Counter"
+                        type="number"
+                        min="0"
+                        max="10000"
+                        value={startCounter}
+                    onchange = {handleStartChange}
+                    ></lightning-input>
+                    <c-child-lwc
+                    counter ={startCounter}          
+                    ></c-child-lwc>
+
+                    <lightning-button
+                    class="slds-p-horizontal_small"
+                    variant="Brand"
+                    label="Changer-Add  100 to counter "
+                    onclick={handleMaximizeCounter}
+                    ></lightning-button>
+
+</lightning-card>
+
+</template>

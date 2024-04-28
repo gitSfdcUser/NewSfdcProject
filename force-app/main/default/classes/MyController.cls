@@ -1,0 +1,7 @@
+public with sharing class MyController {
+    public String getPreRenderedHTMLContent() {
+        // Generate HTML content dynamically
+        String dynamicHTML = '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Embedded Lightning Component</title><style>body{font-family:Arial,sans-serif;margin:0;padding:0}header{background-color:#333;color:#fff;padding:10px;text-align:center}h1{margin-top:20px;text-align:center}.container{max-width:800px;margin:0 auto;padding:20px}iframe{display:block;margin:0 auto;width:100%;height:600px;border:none}img{display:block;margin:20px auto;max-width:100%;height:auto}</style></head><body><header><h1>Embedded Lightning Component</h1></header><div class="container"><h2>Introduction</h2><p>This is an example of embedding a Lightning component within a web page.</p><h2>Embedded Component</h2><iframe src="https://your-salesforce-instance.salesforce.com/apex/yourVisualforcePageName" width="100%" height="600px" frameborder="0"></iframe><h2>Image</h2><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wired.com%2F2011%2F08%2Fff-lightbulbs%2F&psig=AOvVaw0_ThQZCs2vSG6RUPzTfEJW&ust=1709357821039000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJDs56Gs0oQDFQAAAAAdAAAAABAE" alt="Lightbulb Image"></div></body></html>';
+        return dynamicHTML;
+    }
+}

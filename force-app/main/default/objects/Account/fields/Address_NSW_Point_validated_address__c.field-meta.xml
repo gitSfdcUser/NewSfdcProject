@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Address_NSW_Point_validated_address__c</fullName>
+    <description>Address_NSW_Point_validated_address__c</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Testing purpose</inlineHelpText>
+    <label>Address (NSW Point validated address)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Address</type>
+</CustomField>

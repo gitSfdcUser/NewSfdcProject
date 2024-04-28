@@ -1,0 +1,54 @@
+.backgroundImg{
+    width:100%;
+    height:100%;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgb(84 83 84 / 30%);
+}
+.Custom_text{
+    color:white;
+}
+
+.Highliht_text{
+    color:white;
+    font-size: 42px;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1.5em;
+    font-family: "spartian", sans-serif;
+    margin-left: 65px;
+}
+.hrStyling{
+    color: rgb(224, 224, 12);
+    border: solid 1.2px;
+    width: 10%;
+    padding-left: 10px !important;
+    padding-right: 10px  !important;
+}
+.text-container {
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    height: 2em; /* Set the desired height for the text container */
+    padding-left: 89px;
+
+    }
+    .spacer {
+    height: 22px; /* Set the desired spacing between elements */
+}
+
+/* Add new CSS for border and text color change */
+.need-help {
+    border: 2px solid red; /* Add a transparent border */
+    display: inline-block; /* Make the "Need Help" text inline */
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+    padding: 20px 30px;
+}
+
+.need-help:hover {
+    border-color: rgb(224, 224, 12); /* Change the border color on hover */
+    color: rgb(224, 224, 12); /* Change the text color on hover */
+}
+.slds-border_bottom.hrStyling.need-help {
+    margin-left: 93px;
+    margin-bottom: 50px;
+}

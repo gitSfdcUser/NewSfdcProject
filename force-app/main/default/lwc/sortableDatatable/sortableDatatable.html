@@ -1,0 +1,19 @@
+<template>
+<lightning-card title="Searchable Sorter">
+<div style="height: 200px">
+<lightning-input
+        type="search" 
+ onchange={HANDLECHANGED}
+        label="Search"
+         value ={searchKey}>
+</lightning-input>
+<lightning-datatable
+key-field="id"
+data={data}
+columns={columns}>
+</lightning-datatable>
+
+</div>
+
+</lightning-card>
+</template>

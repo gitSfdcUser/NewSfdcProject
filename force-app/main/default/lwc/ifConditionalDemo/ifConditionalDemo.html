@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Button  Card Manager">
+        <lightning-button label={onclickButtonLabel}  onclick={handleClick} variant="Brand"></lightning-button>
+    </lightning-card>
+<!--New Liightning Card with if else-->
+<template if:true={CardVisible}>
+    <lightning-card title="Dynamic card shower">
+        {myTitle} 
+     </lightning-card>
+</template>
+</template>

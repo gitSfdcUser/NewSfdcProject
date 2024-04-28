@@ -1,0 +1,29 @@
+<apex:page Controller="ContactController">
+    <apex:form >
+        "{!c.FirstName}" fmvrmvrmc "{!c.LastName}"
+        <a href="https://danocloud5-dev-ed.lightning.force.com/lightning/r/Account/0015g000014QyqHAAS/related/Histories/view">This link guide you bro</a>
+
+        <apex:pageBlock title="Edit Contact">
+            <apex:pageBlockSection columns="1">
+                <apex:inputTextarea style="white-space: pre-wrap;" value="{!c.FirstName}" id="firstNameInput"/>
+                <apex:inputField styleClass="slds-input dropDownPadding" value="{!c.Email}" />
+                <apex:inputField value="{!c.LastName}" id="lastNameInput">
+                    <apex:actionSupport event="onchange" action="{!PhoneHelpText}" rerender="firstNameInput"/>       
+                </apex:inputField>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!saveWithLineBreaks}" value="Save"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockTable value="{!samepage}" var="c">
+                <apex:column headerValue="First Name">
+                </apex:column>
+                <apex:column headerValue="Last Name">
+                    <apex:outputField value="{!c.Lastname}"/>
+                </apex:column>
+                <apex:column headerValue="Birthdate">
+                    <apex:outputField value="{!c.Birthdate}"/>
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

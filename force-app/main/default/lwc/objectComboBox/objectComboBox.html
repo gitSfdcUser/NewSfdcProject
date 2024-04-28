@@ -1,0 +1,25 @@
+<template>
+<lightning-card title="OBJECT ComboBox">
+    <lightning-combobox
+    name="Select Object dear"
+    label="Object Manager"
+    value={value}
+    placeholder="Select Object"
+    options={options}
+    onchange={onObjectChange} ></lightning-combobox>
+    <p>
+        <b> SELECTED VALUE IS:{value}</b>
+    </p> 
+    <div class="slds-card">
+        <lightning-combobox 
+        name="fieldList"
+            label={picklistFieldsLabel}
+            options={options2} 
+            placeholder="Select Field">
+        </lightning-combobox>
+    </div>
+
+
+</lightning-card>
+
+</template>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fancy_approval_button</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>fancy approval button</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>if ((Modal.confirm &amp;amp;&amp;amp; Modal.confirm(&apos;Once you submit this record for approval, you might not be able to edit it or recall it from the approval process depending on your settings. Continue?&apos;)) || (!Modal.confirm &amp;amp;&amp;amp; window.confirm(&apos;Once you submit this record for approval, you might not be able to edit it or recall it from the approval process depending on your settings. Continue?&apos;))) navigateToUrl(&apos;/p/process/Submit?retURL=%2FXXXX&amp;amp;id={!Opportunity.Id}&apos;,&apos;DETAIL&apos;,&apos;submit&apos;);</url>
+</WebLink>

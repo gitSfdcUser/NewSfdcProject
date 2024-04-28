@@ -1,0 +1,11 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,lightning:isUrlAddressable" access="global">
+    <!-- Attributes -->
+    <aura:attribute name="recordId" type="String" />
+    <!-- Add more attributes if needed -->
+
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.wiredRecord}" />
+
+    <!-- Add your component markup here -->
+
+</aura:component>

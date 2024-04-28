@@ -1,0 +1,8 @@
+<aura:component controller="PdfFilesController" implements="flexipage:availableForRecordHome,force:hasRecordId">
+    <!-- Display PDF Files -->
+    <h1>Test</h1>
+        <lightning:fileCard fileId="0695g00000JsHphAAF" description="{!pdf.Title}"/>
+        <lightning:fileCard fileId="0695g00000JsHphAAF" description="Sample Description"/>
+    <h1>TestEnd</h1>
+
+</aura:component>

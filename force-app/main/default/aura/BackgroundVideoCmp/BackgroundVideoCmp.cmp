@@ -1,0 +1,7 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+   <lightning:fileCard fileId="0695g00000AfBO4AAN"/>
+    <video muted="true" aura:id="video" class="video" autoplay="autoplay" loop="loop" >
+        <source src="/servlet/servlet.FileDownload?file=0685g00000IAB47AAH" type="video/mp4" />
+    </video>
+<img src="programming.gif"></img>
+</aura:component>

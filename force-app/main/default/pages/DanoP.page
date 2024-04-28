@@ -1,0 +1,1378 @@
+<apex:page docType="html-5.0" applyHtmlTag="false" applyBodyTag="false"
+           showHeader="false" sidebar="false" standardStylesheets="false"
+           title="Unused Title">
+    <html lang="en">
+        
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="profile" href="https://gmpg.org/xfn/11" />
+            <link rel="pingback" href="https://www.danocloudtechnology.com/xmlrpc.php" />
+            <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+            
+            <!-- This site is optimized with the Yoast SEO plugin v19.3 - https://yoast.com/wordpress/plugins/seo/ -->
+            <title>Dano Cloud Technology Solutions is considered as one of the..</title>
+            <meta name="description" content="Dano Cloud Technology Solutions is considered as one of the fast-growing cloud partners in Oracle Cloud HCM space in Middle East.." />
+            <link rel="canonical" href="https://www.danocloudtechnology.com/" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content="Neel Patel! Professional WordPress Designer &amp; Developer!" />
+            <meta property="og:description" content="I have designed &amp; developed Mobile responsive WordPress for brands and companies around the world &amp; specialise in the higher end, creative website design for start-ups, small-medium-sized business companies."
+                  />
+            <meta property="og:url" content="https://www.danocloudtechnology.com/" />
+            <meta property="og:site_name" content="Dano Cloud Technology" />
+            <meta property="article:modified_time" content="2022-07-25T14:03:53+00:00" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="Neel Patel! Professional WordPress Designer &amp; Developer!" />
+            <meta name="twitter:description" content="I have designed &amp; developed Mobile responsive WordPress for brands and companies around the world &amp; specialise in the higher end, creative website design for start-ups, small-medium-sized business companies."
+                  />
+            <meta name="twitter:label1" content="Est. reading time" />
+            <meta name="twitter:data1" content="6 minutes" />
+            <script type="application/ld+json" class="yoast-schema-graph">
+            {
+                "@context": "https://schema.org",
+                    "@graph": [{
+                        "@type": ["Person", "Organization"],
+                        "@id": "https://www.danocloudtechnology.com/#/schema/person/074856ee98ce72cbeb047a4f1fe0d240",
+                        "name": "admin",
+                        "image": {
+                            "@type": "ImageObject",
+                            "inLanguage": "en",
+                            "@id": "https://www.danocloudtechnology.com/#/schema/person/image/",
+                            "url": "https://www.danocloudtechnology.com/wp-content/uploads/2022/02/WhatsApp-Image-2021-12-29-at-7.10.47-PM-1.jpeg",
+                            "contentUrl": "https://www.danocloudtechnology.com/wp-content/uploads/2022/02/WhatsApp-Image-2021-12-29-at-7.10.47-PM-1.jpeg",
+                            "width": 806,
+                            "height": 489,
+                            "caption": "admin"
+                        },
+                        "logo": {
+                            "@id": "https://www.danocloudtechnology.com/#/schema/person/image/"
+                        },
+                        "description": "I’m a Professional Salesforce &amp; Developer. I have designed &amp; developed Mobile responsive Salesforce for brands &amp; companies around the world and specialize in the higher end, creative website design for start-ups, small-medium-sized business companies.",
+                        "sameAs": ["https://www.danocloudtechnology.com"]
+                    }, {
+                        "@type": "WebSite",
+                        "@id": "https://www.danocloudtechnology.com/#website",
+                        "url": "https://www.danocloudtechnology.com/",
+                        "name": "Dano Cloud Technology",
+                        "description": "Grow Your Business With Salesforce",
+                        "publisher": {
+                            "@id": "https://www.danocloudtechnology.com/#/schema/person/074856ee98ce72cbeb047a4f1fe0d240"
+                        },
+                        "potentialAction": [{
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https://www.danocloudtechnology.com/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }],
+                        "inLanguage": "en"
+                    }, {
+                        "@type": "ImageObject",
+                        "inLanguage": "en",
+                        "@id": "https://www.danocloudtechnology.com/#primaryimage",
+                        "url": "https://www.danocloudtechnology.com/wp-content/uploads/2022/07/image_2022_06_21T12_05_57_187Z-removebg-preview.png",
+                        "contentUrl": "https://www.danocloudtechnology.com/wp-content/uploads/2022/07/image_2022_06_21T12_05_57_187Z-removebg-preview.png",
+                        "width": 538,
+                        "height": 464
+                    }, {
+                        "@type": "WebPage",
+                        "@id": "https://www.danocloudtechnology.com/",
+                        "url": "https://www.danocloudtechnology.com/",
+                        "name": "Dano Cloud Technology Solutions is considered as one of the..",
+                        "isPartOf": {
+                            "@id": "https://www.danocloudtechnology.com/#website"
+                        },
+                        "about": {
+                            "@id": "https://www.danocloudtechnology.com/#/schema/person/074856ee98ce72cbeb047a4f1fe0d240"
+                        },
+                        "primaryImageOfPage": {
+                            "@id": "https://www.danocloudtechnology.com/#primaryimage"
+                        },
+                        "datePublished": "2021-12-14T14:14:13+00:00",
+                        "dateModified": "2022-07-25T14:03:53+00:00",
+                        "description": "Dano Cloud Technology Solutions is considered as one of the fast-growing cloud partners in Oracle Cloud HCM space in Middle East..",
+                        "breadcrumb": {
+                            "@id": "https://www.danocloudtechnology.com/#breadcrumb"
+                        },
+                        "inLanguage": "en",
+                        "potentialAction": [{
+                            "@type": "ReadAction",
+                            "target": ["https://www.danocloudtechnology.com/"]
+                        }]
+                    }, {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.danocloudtechnology.com/#breadcrumb",
+                        "itemListElement": [{
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home"
+                        }]
+                    }]
+            }
+            </script>
+            <!-- / Yoast SEO plugin. -->
+            
+            
+            <link rel='dns-prefetch' href='//s.w.org' />
+            <link rel="alternate" type="application/rss+xml" title="Dano Cloud Technology &raquo; Feed" href="https://www.danocloudtechnology.com/feed/" />
+            <link rel="alternate" type="application/rss+xml" title="Dano Cloud Technology &raquo; Comments Feed" href="https://www.danocloudtechnology.com/comments/feed/" />
+            <script type="text/javascript">
+            window._wpemojiSettings = {
+                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+                "ext": ".png",
+                "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+                "svgExt": ".svg",
+                "source": {
+                    "concatemoji": "https:\/\/www.danocloudtechnology.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.3"
+                }
+            };
+            /*! This file is auto-generated */
+            ! function(e, a, t) {
+                var n, r, o, i = a.createElement("canvas"),
+                    p = i.getContext && i.getContext("2d");
+                
+                function s(e, t) {
+                    var a = String.fromCharCode,
+                        e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
+                    return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+                }
+                
+                function c(e) {
+                    var t = a.createElement("script");
+                    t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+                }
+                for (o = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                    if (!p || !p.fillText) return !1;
+                    switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                        case "flag":
+                            return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+                        case "emoji":
+                            return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999])
+                    }
+                    return !1
+                }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+                t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+                    t.DOMReady = !0
+                }, t.supports.everything || (n = function() {
+                    t.readyCallback()
+                }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                    "complete" === a.readyState && t.readyCallback()
+                })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)))
+            }(window, document, window._wpemojiSettings);
+            </script>
+            <style type="text/css">
+                img.wp-smiley,
+                img.emoji {
+                display: inline !important;
+                border: none !important;
+                box-shadow: none !important;
+                height: 1em !important;
+                width: 1em !important;
+                margin: 0 0.07em !important;
+                vertical-align: -0.1em !important;
+                background: none !important;
+                padding: 0 !important;
+                }
+            </style>
+            <link rel='stylesheet' id='wp-block-library-css' href='https://www.danocloudtechnology.com/wp-includes/css/dist/block-library/style.min.css?ver=6.0.3' type='text/css' media='all' />
+            <style id='joinchat-button-style-inline-css' type='text/css'>
+                .wp-block-joinchat-button {
+                border: none !important;
+                text-align: center
+                }
+                
+                .wp-block-joinchat-button figure {
+                display: table;
+                margin: 0 auto;
+                padding: 0
+                }
+                
+                .wp-block-joinchat-button figcaption {
+                font: normal normal 400 .6em/2em var(--wp--preset--font-family--system-font, sans-serif);
+                margin: 0;
+                padding: 0
+                }
+                
+                .wp-block-joinchat-button .joinchat-button__qr {
+                background-color: #fff;
+                border: 6px solid #25d366;
+                border-radius: 30px;
+                box-sizing: content-box;
+                display: block;
+                height: 200px;
+                margin: auto;
+                overflow: hidden;
+                padding: 10px;
+                width: 200px
+                }
+                
+                .wp-block-joinchat-button .joinchat-button__qr canvas,
+                .wp-block-joinchat-button .joinchat-button__qr img {
+                display: block;
+                margin: auto
+                }
+                
+                .wp-block-joinchat-button .joinchat-button__link {
+                align-items: center;
+                background-color: #25d366;
+                border: 6px solid #25d366;
+                border-radius: 30px;
+                display: inline-flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                line-height: 1.25em;
+                margin: 0 auto;
+                text-decoration: none
+                }
+                
+                .wp-block-joinchat-button .joinchat-button__link:before {
+                background: transparent var(--joinchat-ico) no-repeat center;
+                background-size: 100%;
+                content: "";
+                display: block;
+                height: 1.5em;
+                margin: -.75em .75em -.75em 0;
+                width: 1.5em
+                }
+                
+                .wp-block-joinchat-button figure+.joinchat-button__link {
+                margin-top: 10px
+                }
+                
+                @media (orientation:landscape)and (min-height:481px),
+                (orientation:portrait)and (min-width:481px) {
+                .wp-block-joinchat-button.joinchat-button--qr-only figure+.joinchat-button__link {
+                display: none
+                }
+                }
+                
+                @media (max-width:480px),
+                (orientation:landscape)and (max-height:480px) {
+                .wp-block-joinchat-button figure {
+                display: none
+                }
+                }
+            </style>
+            <style id='global-styles-inline-css' type='text/css'>
+                body {
+                --wp--preset--color--black: #000000;
+                --wp--preset--color--cyan-bluish-gray: #abb8c3;
+                --wp--preset--color--white: #ffffff;
+                --wp--preset--color--pale-pink: #f78da7;
+                --wp--preset--color--vivid-red: #cf2e2e;
+                --wp--preset--color--luminous-vivid-orange: #ff6900;
+                --wp--preset--color--luminous-vivid-amber: #fcb900;
+                --wp--preset--color--light-green-cyan: #7bdcb5;
+                --wp--preset--color--vivid-green-cyan: #00d084;
+                --wp--preset--color--pale-cyan-blue: #8ed1fc;
+                --wp--preset--color--vivid-cyan-blue: #0693e3;
+                --wp--preset--color--vivid-purple: #9b51e0;
+                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+                --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+                --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+                --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+                --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+                --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+                --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+                --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+                --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+                --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+                --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+                --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+                --wp--preset--font-size--small: 13px;
+                --wp--preset--font-size--medium: 20px;
+                --wp--preset--font-size--large: 36px;
+                --wp--preset--font-size--x-large: 42px;
+                }
+                
+                .has-black-color {
+                color: var(--wp--preset--color--black) !important;
+                }
+                
+                .has-cyan-bluish-gray-color {
+                color: var(--wp--preset--color--cyan-bluish-gray) !important;
+                }
+                
+                .has-white-color {
+                color: var(--wp--preset--color--white) !important;
+                }
+                
+                .has-pale-pink-color {
+                color: var(--wp--preset--color--pale-pink) !important;
+                }
+                
+                .has-vivid-red-color {
+                color: var(--wp--preset--color--vivid-red) !important;
+                }
+                
+                .has-luminous-vivid-orange-color {
+                color: var(--wp--preset--color--luminous-vivid-orange) !important;
+                }
+                
+                .has-luminous-vivid-amber-color {
+                color: var(--wp--preset--color--luminous-vivid-amber) !important;
+                }
+                
+                .has-light-green-cyan-color {
+                color: var(--wp--preset--color--light-green-cyan) !important;
+                }
+                
+                .has-vivid-green-cyan-color {
+                color: var(--wp--preset--color--vivid-green-cyan) !important;
+                }
+                
+                .has-pale-cyan-blue-color {
+                color: var(--wp--preset--color--pale-cyan-blue) !important;
+                }
+                
+                .has-vivid-cyan-blue-color {
+                color: var(--wp--preset--color--vivid-cyan-blue) !important;
+                }
+                
+                .has-vivid-purple-color {
+                color: var(--wp--preset--color--vivid-purple) !important;
+                }
+                
+                .has-black-background-color {
+                background-color: var(--wp--preset--color--black) !important;
+                }
+                
+                .has-cyan-bluish-gray-background-color {
+                background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+                }
+                
+                .has-white-background-color {
+                background-color: var(--wp--preset--color--white) !important;
+                }
+                
+                .has-pale-pink-background-color {
+                background-color: var(--wp--preset--color--pale-pink) !important;
+                }
+                
+                .has-vivid-red-background-color {
+                background-color: var(--wp--preset--color--vivid-red) !important;
+                }
+                
+                .has-luminous-vivid-orange-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+                }
+                
+                .has-luminous-vivid-amber-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+                }
+                
+                .has-light-green-cyan-background-color {
+                background-color: var(--wp--preset--color--light-green-cyan) !important;
+                }
+                
+                .has-vivid-green-cyan-background-color {
+                background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+                }
+                
+                .has-pale-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+                }
+                
+                .has-vivid-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+                }
+                
+                .has-vivid-purple-background-color {
+                background-color: var(--wp--preset--color--vivid-purple) !important;
+                }
+                
+                .has-black-border-color {
+                border-color: var(--wp--preset--color--black) !important;
+                }
+                
+                .has-cyan-bluish-gray-border-color {
+                border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+                }
+                
+                .has-white-border-color {
+                border-color: var(--wp--preset--color--white) !important;
+                }
+                
+                .has-pale-pink-border-color {
+                border-color: var(--wp--preset--color--pale-pink) !important;
+                }
+                
+                .has-vivid-red-border-color {
+                border-color: var(--wp--preset--color--vivid-red) !important;
+                }
+                
+                .has-luminous-vivid-orange-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+                }
+                
+                .has-luminous-vivid-amber-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+                }
+                
+                .has-light-green-cyan-border-color {
+                border-color: var(--wp--preset--color--light-green-cyan) !important;
+                }
+                
+                .has-vivid-green-cyan-border-color {
+                border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+                }
+                
+                .has-pale-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+                }
+                
+                .has-vivid-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+                }
+                
+                .has-vivid-purple-border-color {
+                border-color: var(--wp--preset--color--vivid-purple) !important;
+                }
+                
+                .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+                background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+                }
+                
+                .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+                background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+                }
+                
+                .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+                }
+                
+                .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+                }
+                
+                .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+                background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+                }
+                
+                .has-cool-to-warm-spectrum-gradient-background {
+                background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+                }
+                
+                .has-blush-light-purple-gradient-background {
+                background: var(--wp--preset--gradient--blush-light-purple) !important;
+                }
+                
+                .has-blush-bordeaux-gradient-background {
+                background: var(--wp--preset--gradient--blush-bordeaux) !important;
+                }
+                
+                .has-luminous-dusk-gradient-background {
+                background: var(--wp--preset--gradient--luminous-dusk) !important;
+                }
+                
+                .has-pale-ocean-gradient-background {
+                background: var(--wp--preset--gradient--pale-ocean) !important;
+                }
+                
+                .has-electric-grass-gradient-background {
+                background: var(--wp--preset--gradient--electric-grass) !important;
+                }
+                
+                .has-midnight-gradient-background {
+                background: var(--wp--preset--gradient--midnight) !important;
+                }
+                
+                .has-small-font-size {
+                font-size: var(--wp--preset--font-size--small) !important;
+                }
+                
+                .has-medium-font-size {
+                font-size: var(--wp--preset--font-size--medium) !important;
+                }
+                
+                .has-large-font-size {
+                font-size: var(--wp--preset--font-size--large) !important;
+                }
+                
+                .has-x-large-font-size {
+                font-size: var(--wp--preset--font-size--x-large) !important;
+                }
+            </style>
+            <link rel='stylesheet' id='hfe-style-css' href='https://www.danocloudtechnology.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.13' type='text/css' media='all' />
+            <link rel='stylesheet' id='elementor-icons-css' href='https://www.danocloudtechnology.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0' type='text/css' media='all' />
+            <link rel='stylesheet' id='elementor-frontend-css' href='https://www.danocloudtechnology.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.7.2' type='text/css' media='all' />
+            <link rel='stylesheet' id='elementor-post-7-css' href='https://www.danocloudtechnology.com/wp-content/uploads/elementor/css/post-7.css?ver=1661399201' type='text/css' media='all' />
+            <link rel='stylesheet' id='elementor-pro-css' href='https://www.danocloudtechnology.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.4.2' type='text/css' media='all' />
+            <link rel='stylesheet' id='elementor-post-167-css' href='https://www.danocloudtechnology.com/wp-content/uploads/elementor/css/post-167.css?ver=1661399201' type='text/css' media='all' />
+            <link rel='stylesheet' id='hfe-widgets-style-css' href='https://www.danocloudtechnology.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.13' type='text/css' media='all' />
+            <link rel='stylesheet' id='elementor-post-526-css' href='https://www.danocloudtechnology.com/wp-content/uploads/elementor/css/post-526.css?ver=1661399201' type='text/css' media='all' />
+            <link rel='stylesheet' id='elementor-post-511-css' href='https://www.danocloudtechnology.com/wp-content/uploads/elementor/css/post-511.css?ver=1661399201' type='text/css' media='all' />
+            <link rel='stylesheet' id='wpforms-full-css' href='https://www.danocloudtechnology.com/wp-content/plugins/wpforms/assets/css/wpforms-full.min.css?ver=1.7.1.1' type='text/css' media='all' />
+            <link rel='stylesheet' id='hello-elementor-css' href='https://www.danocloudtechnology.com/wp-content/themes/hello-elementor/style.min.css?ver=2.4.1' type='text/css' media='all' />
+            <link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://www.danocloudtechnology.com/wp-content/themes/hello-elementor/theme.min.css?ver=2.4.1' type='text/css' media='all' />
+            <link rel='stylesheet' id='elementor-icons-ekiticons-css' href='https://www.danocloudtechnology.com/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=2.7.0' type='text/css' media='all' />
+            <link rel='stylesheet' id='joinchat-css' href='https://www.danocloudtechnology.com/wp-content/plugins/creame-whatsapp-me/public/css/joinchat-btn.min.css?ver=4.5.9' type='text/css' media='all' />
+            <link rel='stylesheet' id='ekit-widget-styles-css' href='https://www.danocloudtechnology.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=2.7.0' type='text/css' media='all' />
+            <link rel='stylesheet' id='ekit-responsive-css' href='https://www.danocloudtechnology.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=2.7.0' type='text/css' media='all' />
+            <link rel='stylesheet' id='eael-general-css' href='https://www.danocloudtechnology.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.2.3' type='text/css' media='all' />
+            <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Spartan%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.0.3'
+                  type='text/css' media='all' />
+            <link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://www.danocloudtechnology.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
+            <link rel='stylesheet' id='elementor-icons-fa-regular-css' href='https://www.danocloudtechnology.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3' type='text/css' media='all' />
+            <script type='text/javascript' src='https://www.danocloudtechnology.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+            <script type='text/javascript' src='https://www.danocloudtechnology.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+            <link rel="https://api.w.org/" href="https://www.danocloudtechnology.com/wp-json/" />
+            <link rel="alternate" type="application/json" href="https://www.danocloudtechnology.com/wp-json/wp/v2/pages/167" />
+            <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.danocloudtechnology.com/xmlrpc.php?rsd" />
+            <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.danocloudtechnology.com/wp-includes/wlwmanifest.xml" />
+            <meta name="generator" content="WordPress 6.0.3" />
+            <link rel='shortlink' href='https://www.danocloudtechnology.com/' />
+            <link rel="alternate" type="application/json+oembed" href="https://www.danocloudtechnology.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.danocloudtechnology.com%2F" />
+            <link rel="alternate" type="text/xml+oembed" href="https://www.danocloudtechnology.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.danocloudtechnology.com%2F&#038;format=xml" />
+            <meta name="theme-color" content="#0A0B0F"/>
+            <link rel="icon" href="https://www.danocloudtechnology.com/wp-content/uploads/2022/07/cropped-Screenshot-2022-07-15-at-9.13.50-PM-32x32.png" sizes="32x32" />
+            <link rel="icon" href="https://www.danocloudtechnology.com/wp-content/uploads/2022/07/cropped-Screenshot-2022-07-15-at-9.13.50-PM-192x192.png" sizes="192x192" />
+            <link rel="apple-touch-icon" href="https://www.danocloudtechnology.com/wp-content/uploads/2022/07/cropped-Screenshot-2022-07-15-at-9.13.50-PM-180x180.png" />
+            <meta name="msapplication-TileImage" content="https://www.danocloudtechnology.com/wp-content/uploads/2022/07/cropped-Screenshot-2022-07-15-at-9.13.50-PM-270x270.png" />
+        </head>
+        
+        <body data-rsssl="1" class="home page-template-default page page-id-167 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor elementor-default elementor-kit-7 elementor-page elementor-page-167">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+            <svg
+                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+                <defs>
+                    <filter id="wp-duotone-grayscale">
+                        <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                        <feComponentTransfer color-interpolation-filters="sRGB">
+                            <feFuncR type="table" tableValues="0 1" />
+                            <feFuncG type="table" tableValues="0 1" />
+                            <feFuncB type="table" tableValues="0 1" />
+                            <feFuncA type="table" tableValues="1 1" />
+                        </feComponentTransfer>
+                        <feComposite in2="SourceGraphic" operator="in" />
+                    </filter>
+                </defs>
+            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+            <svg
+                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+                <defs>
+                    <filter id="wp-duotone-blue-red">
+                        <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                        <feComponentTransfer color-interpolation-filters="sRGB">
+                            <feFuncR type="table" tableValues="0 1" />
+                            <feFuncG type="table" tableValues="0 0.27843137254902" />
+                            <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                            <feFuncA type="table" tableValues="1 1" />
+                        </feComponentTransfer>
+                        <feComposite in2="SourceGraphic" operator="in" />
+                    </filter>
+                </defs>
+            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+            <svg
+                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+                <defs>
+                    <filter id="wp-duotone-magenta-yellow">
+                        <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                        <feComponentTransfer color-interpolation-filters="sRGB">
+                            <feFuncR type="table" tableValues="0.78039215686275 1" />
+                            <feFuncG type="table" tableValues="0 0.94901960784314" />
+                            <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                            <feFuncA type="table" tableValues="1 1" />
+                        </feComponentTransfer>
+                        <feComposite in2="SourceGraphic" operator="in" />
+                    </filter>
+                </defs>
+            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+            <svg
+                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+                <defs>
+                    <filter id="wp-duotone-blue-orange">
+                        <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                        <feComponentTransfer color-interpolation-filters="sRGB">
+                            <feFuncR type="table" tableValues="0.098039215686275 1" />
+                            <feFuncG type="table" tableValues="0 0.66274509803922" />
+                            <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                            <feFuncA type="table" tableValues="1 1" />
+                        </feComponentTransfer>
+                        <feComposite in2="SourceGraphic" operator="in" />
+                    </filter>
+                </defs>
+            </svg>
+            <div id="page" class="hfeed site">
+                
+                <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+                    <p class="main-title bhf-hidden" itemprop="headline"><a href="https://www.danocloudtechnology.com" title="Dano Cloud Technology" rel="home">Dano Cloud Technology</a></p>
+                    <div data-elementor-type="wp-post" data-elementor-id="526" class="elementor elementor-526">
+                        <section class="elementor-section elementor-top-section elementor-element elementor-element-23271bc5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="23271bc5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-770bd8a" data-id="770bd8a" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-4c1e54bc elementor-widget elementor-widget-image" data-id="4c1e54bc" data-element_type="widget" data-widget_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <style>
+                                                    /*! elementor - v3.7.2 - 21-08-2022 */
+                                                    
+                                                    .elementor-widget-image {
+                                                    text-align: center
+                                                    }
+                                                    
+                                                    .elementor-widget-image a {
+                                                    display: inline-block
+                                                    }
+                                                    
+                                                    .elementor-widget-image a img[src$=".svg"] {
+                                                    width: 48px
+                                                    }
+                                                    
+                                                    .elementor-widget-image img {
+                                                    vertical-align: middle;
+                                                    display: inline-block
+                                                    }
+                                                </style> <a href="https://www.danocloudtechnology.com">
+                                                <img width="538" height="464" src="https://www.danocloudtechnology.com/wp-content/uploads/2022/07/image_2022_06_21T12_05_57_187Z-removebg-preview.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://www.danocloudtechnology.com/wp-content/uploads/2022/07/image_2022_06_21T12_05_57_187Z-removebg-preview.png 538w, https://www.danocloudtechnology.com/wp-content/uploads/2022/07/image_2022_06_21T12_05_57_187Z-removebg-preview-300x259.png 300w" sizes="(max-width: 538px) 100vw, 538px" />								</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-26b84583" data-id="26b84583" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-3b88c627 elementor-widget elementor-widget-ekit-nav-menu" data-id="3b88c627" data-element_type="widget" data-widget_type="ekit-nav-menu.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon="" data-hamburger-icon-type="icon" data-responsive-breakpoint="1024"> <button class="elementskit-menu-hamburger elementskit-menu-toggler">
+                                                    <span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span>
+                                                    </button>
+                                                    <div id="ekit-megamenu-primary" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default elementskit_line_arrow ekit-nav-menu-one-page- ekit-nav-dropdown-hover">
+                                                        <ul id="menu-primary" class="elementskit-navbar-nav elementskit-menu-po-right submenu-click-on-icon">
+                                                            <li id="menu-item-215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-167 current_page_item menu-item-215 nav-item elementskit-mobile-builder-content active"
+                                                                data-vertical-menu="750px"><a href="https://www.danocloudtechnology.com/" class="ekit-menu-nav-link active">Home</a></li>
+                                                            <li id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-216 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://www.danocloudtechnology.com/services-dano-cloud-technology/" class="ekit-menu-nav-link">Services</a></li>
+                                                            <li id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://www.danocloudtechnology.com/blog-dano-cloud-technology/" class="ekit-menu-nav-link">Blog</a></li>
+                                                            <li id="menu-item-219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-219 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://www.danocloudtechnology.com/about-us-dano-cloud-technology/" class="ekit-menu-nav-link">About</a></li>
+                                                            <li id="menu-item-220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://www.danocloudtechnology.com/contact-us-dano-cloud-technolog/" class="ekit-menu-nav-link">Contact</a></li>
+                                                            <li id="menu-item-656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-656 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://www.danocloudtechnology.com/terms-conditions-dano-cloud-technology/" class="ekit-menu-nav-link">Terms &#038; Conditions</a></li>
+                                                            <li id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-657 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://www.danocloudtechnology.com/privacy-policy-dano-cloud-technology/" class="ekit-menu-nav-link">Privacy Policy</a></li>
+                                                        </ul>
+                                                        <div class="elementskit-nav-identity-panel">
+                                                            <div class="elementskit-site-title">
+                                                                <a class="elementskit-nav-logo" href="https://www.danocloudtechnology.com" target="_self" rel="">
+                                                                    
+                                                                </a>
+                                                            </div>
+                                                            <button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-244b380f elementor-hidden-mobile elementor-hidden-tablet" data-id="244b380f" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-5890512 elementor-widget elementor-widget-elementskit-header-search" data-id="5890512" data-element_type="widget" data-widget_type="elementskit-header-search.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="ekit-wid-con"> <a href="#ekit_modal-popup-5890512" class="ekit_navsearch-button ekit-modal-popup">
+                                                    <i aria-hidden="true" class="icon icon-search2"></i>        </a>
+                                                    <!-- language switcher strart -->
+                                                    <!-- xs modal -->
+                                                    <div class="zoom-anim-dialog mfp-hide ekit_modal-searchPanel" id="ekit_modal-popup-5890512">
+                                                        <div class="ekit-search-panel">
+                                                            <!-- Polylang search - thanks to Alain Melsens -->
+                                                            <form role="search" method="get" class="ekit-search-group" action="https://www.danocloudtechnology.com/">
+                                                                <input type="search" class="ekit_search-field" placeholder="Search..." value="" name="s" />
+                                                                <button type="submit" class="ekit_search-button">
+                                                                    <i aria-hidden="true" class="icon icon-search2"></i>                    </button>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End xs modal -->
+                                                    <!-- end language switcher strart -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </header>
+                
+                
+                <main class="site-main post-167 page type-page status-publish hentry" role="main">
+                    <div class="page-content">
+                        <div data-elementor-type="wp-page" data-elementor-id="167" class="elementor elementor-167">
+                            <section class="elementor-section elementor-top-section elementor-element elementor-element-01cfb41 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="01cfb41" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/www.danocloudtechnology.com\/wp-content\/uploads\/2022\/07\/video.mp4&quot;,&quot;background_video_start&quot;:0,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
+                                <div class="elementor-background-video-container">
+                                    <!-- <video class="elementor-background-video-hosted elementor-html5-video" autoplay muted playsinline loop></video> -->
+                                </div>
+                                <div class="elementor-background-overlay"></div>
+                                
+                                <video class="elementor-background-video-hosted elementor-html5-video" autoplay="true" muted="true" playsinline="true" loop="true" src="https://www.danocloudtechnology.com/wp-content/uploads/2022/07/video.mp4" style="width: 1263.33px; height: 710.623px;"></video>
+                                
+                                
+                                
+                                
+                                
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1bced4b" data-id="1bced4b" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-1e0c921 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1e0c921" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-cb94873" data-id="cb94873" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-5708af0 elementor-widget-divider--view-line_text elementor-widget-divider--element-align-right elementor-invisible elementor-widget elementor-widget-divider" data-id="5708af0" data-element_type="widget"
+                                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:50}" data-widget_type="divider.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <style>
+                                                                        /*! elementor - v3.7.2 - 21-08-2022 */
+                                                                        
+                                                                        .elementor-widget-divider {
+                                                                        --divider-border-style: none;
+                                                                        --divider-border-width: 1px;
+                                                                        --divider-color: #2c2c2c;
+                                                                        --divider-icon-size: 20px;
+                                                                        --divider-element-spacing: 10px;
+                                                                        --divider-pattern-height: 24px;
+                                                                        --divider-pattern-size: 20px;
+                                                                        --divider-pattern-url: none;
+                                                                        --divider-pattern-repeat: repeat-x
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider .elementor-divider {
+                                                                        display: -webkit-box;
+                                                                        display: -ms-flexbox;
+                                                                        display: flex
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider .elementor-divider__text {
+                                                                        font-size: 15px;
+                                                                        line-height: 1;
+                                                                        max-width: 95%
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider .elementor-divider__element {
+                                                                        margin: 0 var(--divider-element-spacing);
+                                                                        -ms-flex-negative: 0;
+                                                                        flex-shrink: 0
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider .elementor-icon {
+                                                                        font-size: var(--divider-icon-size)
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider .elementor-divider-separator {
+                                                                        display: -webkit-box;
+                                                                        display: -ms-flexbox;
+                                                                        display: flex;
+                                                                        margin: 0;
+                                                                        direction: ltr
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider--view-line_icon .elementor-divider-separator,
+                                                                        .elementor-widget-divider--view-line_text .elementor-divider-separator {
+                                                                        -webkit-box-align: center;
+                                                                        -ms-flex-align: center;
+                                                                        align-items: center
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider--view-line_icon .elementor-divider-separator:after,
+                                                                        .elementor-widget-divider--view-line_icon .elementor-divider-separator:before,
+                                                                        .elementor-widget-divider--view-line_text .elementor-divider-separator:after,
+                                                                        .elementor-widget-divider--view-line_text .elementor-divider-separator:before {
+                                                                        display: block;
+                                                                        content: "";
+                                                                        border-bottom: 0;
+                                                                        -webkit-box-flex: 1;
+                                                                        -ms-flex-positive: 1;
+                                                                        flex-grow: 1;
+                                                                        border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type {
+                                                                        -webkit-box-flex: 0;
+                                                                        -ms-flex-positive: 0;
+                                                                        flex-grow: 0;
+                                                                        -ms-flex-negative: 100;
+                                                                        flex-shrink: 100
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider--element-align-left .elementor-divider-separator:before {
+                                                                        content: none
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider--element-align-left .elementor-divider__element {
+                                                                        margin-left: 0
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type {
+                                                                        -webkit-box-flex: 0;
+                                                                        -ms-flex-positive: 0;
+                                                                        flex-grow: 0;
+                                                                        -ms-flex-negative: 100;
+                                                                        flex-shrink: 100
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider--element-align-right .elementor-divider-separator:after {
+                                                                        content: none
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider--element-align-right .elementor-divider__element {
+                                                                        margin-right: 0
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
+                                                                        border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider--separator-type-pattern {
+                                                                        --divider-border-style: none
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,
+                                                                        .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,
+                                                                        .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,
+                                                                        .elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator {
+                                                                        width: 100%;
+                                                                        min-height: var(--divider-pattern-height);
+                                                                        -webkit-mask-size: var(--divider-pattern-size) 100%;
+                                                                        mask-size: var(--divider-pattern-size) 100%;
+                                                                        -webkit-mask-repeat: var(--divider-pattern-repeat);
+                                                                        mask-repeat: var(--divider-pattern-repeat);
+                                                                        background-color: var(--divider-color);
+                                                                        -webkit-mask-image: var(--divider-pattern-url);
+                                                                        mask-image: var(--divider-pattern-url)
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider--no-spacing {
+                                                                        --divider-pattern-size: auto
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-divider--bg-round {
+                                                                        --divider-pattern-repeat: round
+                                                                        }
+                                                                        
+                                                                        .rtl .elementor-widget-divider .elementor-divider__text {
+                                                                        direction: rtl
+                                                                        }
+                                                                        
+                                                                        .e-container>.elementor-widget-divider {
+                                                                        width: var(--container-widget-width, 100%);
+                                                                        --flex-grow: var(--container-widget-flex-grow, 0)
+                                                                        }
+                                                                    </style>
+                                                                    <div class="elementor-divider">
+                                                                        <span class="elementor-divider-separator">
+                                                                            <h6 class="elementor-divider__text elementor-divider__element">
+                                                                                Welcome To Dano Cloud Technology				</h6>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-120be85 elementor-invisible elementor-widget elementor-widget-heading" data-id="120be85" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:150}"
+                                                                 data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <style>
+                                                                        /*! elementor - v3.7.2 - 21-08-2022 */
+                                                                        
+                                                                        .elementor-heading-title {
+                                                                        padding: 0;
+                                                                        margin: 0;
+                                                                        line-height: 1
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                                                        color: inherit;
+                                                                        font-size: inherit;
+                                                                        line-height: inherit
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                                                        font-size: 15px
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                                                        font-size: 19px
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                                                        font-size: 29px
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                                                        font-size: 39px
+                                                                        }
+                                                                        
+                                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                                                        font-size: 59px
+                                                                        }
+                                                                    </style>
+                                                                    <h1 class="elementor-heading-title elementor-size-default">We considered as one of the fast-growing cloud partners in Salesforce.</h1>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-5381761 elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="5381761" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:350}"
+                                                                 data-widget_type="button.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div class="elementor-button-wrapper">
+                                                                        <a href="https://www.danocloudtechnology.com/contact-us/" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-float" role="button">
+                                                                            <span class="elementor-button-content-wrapper">
+                                                                                <span class="elementor-button-text">Need Help? </span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-top-section elementor-element elementor-element-15a56c71 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="15a56c71" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-69baca71" data-id="69baca71" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-42ba8c6e elementor-widget-divider--view-line_text elementor-widget-divider--element-align-right elementor-invisible elementor-widget elementor-widget-divider" data-id="42ba8c6e" data-element_type="widget"
+                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:350}" data-widget_type="divider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-divider">
+                                                        <span class="elementor-divider-separator">
+                                                            <h6 class="elementor-divider__text elementor-divider__element">
+                                                                Who We Are?				</h6>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-5760dd1b elementor-invisible elementor-widget elementor-widget-text-editor" data-id="5760dd1b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:550}"
+                                                 data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <style>
+                                                        /*! elementor - v3.7.2 - 21-08-2022 */
+                                                        
+                                                        .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                                        background-color: #818a91;
+                                                        color: #fff
+                                                        }
+                                                        
+                                                        .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                                        color: #818a91;
+                                                        border: 3px solid;
+                                                        background-color: transparent
+                                                        }
+                                                        
+                                                        .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                                        margin-top: 8px
+                                                        }
+                                                        
+                                                        .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                                        width: 1em;
+                                                        height: 1em
+                                                        }
+                                                        
+                                                        .elementor-widget-text-editor .elementor-drop-cap {
+                                                        float: left;
+                                                        text-align: center;
+                                                        line-height: 1;
+                                                        font-size: 50px
+                                                        }
+                                                        
+                                                        .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                                        display: inline-block
+                                                        }
+                                                    </style>
+                                                    <p>Dano cloud is the World’s preferred Salesforce Development Company that specializes in Salesforce implementation consulting, Salesforce customization consulting, and Salesforce customization.</p>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-5ecd1e23 elementor-mobile-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="5ecd1e23" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:650}"
+                                                 data-widget_type="button.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-button-wrapper">
+                                                        <a href="https://www.danocloudtechnology.com/contact-us/" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-float" role="button">
+                                                            <span class="elementor-button-content-wrapper">
+                                                                <span class="elementor-button-text">Get In Touch</span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-406e46e4 elementor-hidden-mobile" data-id="406e46e4" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-720262ab elementor-invisible elementor-widget elementor-widget-image" data-id="720262ab" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:250}"
+                                                 data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <img width="538" height="464" src="https://www.danocloudtechnology.com/wp-content/uploads/2022/07/image_2022_06_21T12_05_57_187Z-removebg-preview.png" class="elementor-animation-float attachment-full size-full" alt="" loading="lazy" srcset="https://www.danocloudtechnology.com/wp-content/uploads/2022/07/image_2022_06_21T12_05_57_187Z-removebg-preview.png 538w, https://www.danocloudtechnology.com/wp-content/uploads/2022/07/image_2022_06_21T12_05_57_187Z-removebg-preview-300x259.png 300w"
+                                                         sizes="(max-width: 538px) 100vw, 538px" /> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-top-section elementor-element elementor-element-fe44894 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fe44894" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aa969b3" data-id="aa969b3" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-79d1c85 elementor-widget-divider--view-line_text elementor-widget-divider--element-align-left elementor-invisible elementor-widget elementor-widget-divider" data-id="79d1c85" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:350}"
+                                                 data-widget_type="divider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-divider">
+                                                        <span class="elementor-divider-separator">
+                                                            <h2 class="elementor-divider__text elementor-divider__element">
+                                                                Our Working Process				</h2>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-top-section elementor-element elementor-element-8ca5889 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8ca5889" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-7fc68e9 elementor-invisible" data-id="7fc68e9" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:100}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-b904ba9 elementor-view-default elementor-widget elementor-widget-icon" data-id="b904ba9" data-element_type="widget" data-widget_type="icon.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-icon-wrapper">
+                                                        <div class="elementor-icon">
+                                                            <i aria-hidden="true" class="icon icon-search-3"></i> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-abafcad elementor-widget elementor-widget-heading" data-id="abafcad" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Research
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-5c97949 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="5c97949" data-element_type="widget" data-widget_type="divider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-divider">
+                                                        <span class="elementor-divider-separator">
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-f408140 elementor-invisible" data-id="f408140" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-b1dff03 elementor-view-default elementor-widget elementor-widget-icon" data-id="b1dff03" data-element_type="widget" data-widget_type="icon.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-icon-wrapper">
+                                                        <div class="elementor-icon">
+                                                            <i aria-hidden="true" class="icon icon-code"></i> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-d912513 elementor-widget elementor-widget-heading" data-id="d912513" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Develop</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-2e7b7a8 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="2e7b7a8" data-element_type="widget" data-widget_type="divider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-divider">
+                                                        <span class="elementor-divider-separator">
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-2e5945b elementor-invisible" data-id="2e5945b" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-4eeca49 elementor-view-default elementor-widget elementor-widget-icon" data-id="4eeca49" data-element_type="widget" data-widget_type="icon.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-icon-wrapper">
+                                                        <div class="elementor-icon">
+                                                            <i aria-hidden="true" class="icon icon-text-size"></i> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-4f3f125 elementor-widget elementor-widget-heading" data-id="4f3f125" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Test Phase
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-6b30c2d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="6b30c2d" data-element_type="widget" data-widget_type="divider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-divider">
+                                                        <span class="elementor-divider-separator">
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-571ec8e elementor-invisible" data-id="571ec8e" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;,&quot;animation_delay&quot;:100}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-c1b13ff elementor-view-default elementor-widget elementor-widget-icon" data-id="c1b13ff" data-element_type="widget" data-widget_type="icon.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-icon-wrapper">
+                                                        <div class="elementor-icon">
+                                                            <i aria-hidden="true" class="icon icon-rocket"></i> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-dc68e49 elementor-widget elementor-widget-heading" data-id="dc68e49" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Launch</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-b4ba575 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b4ba575" data-element_type="widget" data-widget_type="divider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-divider">
+                                                        <span class="elementor-divider-separator">
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-top-section elementor-element elementor-element-29241ab elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="29241ab" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e58a8d6" data-id="e58a8d6" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-1c216fa elementor-widget-divider--view-line_text elementor-widget-divider--element-align-right elementor-invisible elementor-widget elementor-widget-divider" data-id="1c216fa" data-element_type="widget"
+                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:350}" data-widget_type="divider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-divider">
+                                                        <span class="elementor-divider-separator">
+                                                            <h6 class="elementor-divider__text elementor-divider__element">
+                                                                Our Services				</h6>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-4e3cb16 elementor-invisible elementor-widget elementor-widget-heading" data-id="4e3cb16" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:150}"
+                                                 data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Let’s Check Our Services
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-77a7244 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="77a7244" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7a4aac8 elementor-invisible" data-id="7a4aac8" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:450}">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-background-overlay"></div>
+                                                            <div class="elementor-element elementor-element-326e647 elementor-widget elementor-widget-spacer" data-id="326e647" data-element_type="widget" data-widget_type="spacer.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <style>
+                                                                        /*! elementor - v3.7.2 - 21-08-2022 */
+                                                                        
+                                                                        .elementor-column .elementor-spacer-inner {
+                                                                        height: var(--spacer-size)
+                                                                        }
+                                                                        
+                                                                        .e-container {
+                                                                        --container-widget-width: 100%
+                                                                        }
+                                                                        
+                                                                        .e-container>.elementor-widget-spacer {
+                                                                        width: var(--container-widget-width, var(--spacer-size));
+                                                                        -ms-flex-item-align: stretch;
+                                                                        align-self: stretch;
+                                                                        -ms-flex-negative: 0;
+                                                                        flex-shrink: 0
+                                                                        }
+                                                                        
+                                                                        .e-container>.elementor-widget-spacer>.elementor-widget-container,
+                                                                        .e-container>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer {
+                                                                        height: 100%
+                                                                        }
+                                                                        
+                                                                        .e-container>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner {
+                                                                        height: var(--container-widget-height, var(--spacer-size))
+                                                                        }
+                                                                    </style>
+                                                                    <div class="elementor-spacer">
+                                                                        <div class="elementor-spacer-inner"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-21d696d elementor-widget elementor-widget-heading" data-id="21d696d" data-element_type="widget" data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <h5 class="elementor-heading-title elementor-size-default">Salesforce Integration
+                                                                    </h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e880a7f elementor-invisible" data-id="e880a7f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:450}">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-background-overlay"></div>
+                                                            <div class="elementor-element elementor-element-a2324ad elementor-widget elementor-widget-spacer" data-id="a2324ad" data-element_type="widget" data-widget_type="spacer.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div class="elementor-spacer">
+                                                                        <div class="elementor-spacer-inner"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-131756b elementor-widget elementor-widget-heading" data-id="131756b" data-element_type="widget" data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <h5 class="elementor-heading-title elementor-size-default">Salesforce Platform
+                                                                    </h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1f50935 elementor-invisible" data-id="1f50935" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:450}">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-background-overlay"></div>
+                                                            <div class="elementor-element elementor-element-0863aa0 elementor-widget elementor-widget-spacer" data-id="0863aa0" data-element_type="widget" data-widget_type="spacer.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div class="elementor-spacer">
+                                                                        <div class="elementor-spacer-inner"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-02118a2 elementor-widget elementor-widget-heading" data-id="02118a2" data-element_type="widget" data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <h5 class="elementor-heading-title elementor-size-default">Salesforce Implementation
+                                                                    </h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <div class="elementor-element elementor-element-bbf7b00 elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="bbf7b00" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:650}"
+                                                 data-widget_type="button.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-button-wrapper">
+                                                        <a href="https://www.danocloudtechnology.com/services-dano-cloud-technology/" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-float" role="button">
+                                                            <span class="elementor-button-content-wrapper">
+                                                                <span class="elementor-button-text">All Services</span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-top-section elementor-element elementor-element-8b9b96f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8b9b96f" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-98ae59e" data-id="98ae59e" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-25926df elementor-widget-divider--view-line_text elementor-widget-divider--element-align-left elementor-invisible elementor-widget elementor-widget-divider" data-id="25926df" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:350}"
+                                                 data-widget_type="divider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-divider">
+                                                        <span class="elementor-divider-separator">
+                                                            <h2 class="elementor-divider__text elementor-divider__element">
+                                                                Our Blogs				</h2>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-e192fe2 elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="e192fe2" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:650}"
+                                                 data-widget_type="button.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-button-wrapper">
+                                                        <a href="https://www.danocloudtechnology.com/blog-dano-cloud-technology/" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-float" role="button">
+                                                            <span class="elementor-button-content-wrapper">
+                                                                <span class="elementor-button-text">View More</span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-top-section elementor-element elementor-element-0d1a0a2 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="0d1a0a2" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4cccd3c" data-id="4cccd3c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-733fd3b elementor-widget-divider--view-line_text elementor-widget-divider--element-align-center elementor-invisible elementor-widget elementor-widget-divider" data-id="733fd3b" data-element_type="widget"
+                                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:350}" data-widget_type="divider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-divider">
+                                                        <span class="elementor-divider-separator">
+                                                            <h6 class="elementor-divider__text elementor-divider__element">
+                                                                Our Services				</h6>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-9ac5153 elementor-invisible elementor-widget elementor-widget-heading" data-id="9ac5153" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:150}"
+                                                 data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Let’s Check Our Services
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-7e5fde7 elementor-widget elementor-widget-shortcode" data-id="7e5fde7" data-element_type="widget" data-widget_type="shortcode.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-shortcode">
+                                                        <div class="wpforms-container wpforms-container-full" id="wpforms-650">
+                                                            <form id="wpforms-form-650" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="650" method="post" enctype="multipart/form-data" action="/" data-token="b87b440c912f655068e64cf41be121e7"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+                                                                <div class="wpforms-field-container">
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    </div>
+                                                                <div class="wpforms-submit-container">
+                                                                    <button type="submit"
+                                                                    name="wpforms[submit]" id="wpforms-submit-650" class="wpforms-submit" data-alt-text="Sending..." data-submit-text="Submit" aria-live="assertive" value="wpforms-submit">Submit</button>
+                                                                    <img
+                                                                    src="https://www.danocloudtechnology.com/wp-content/plugins/wpforms/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26"
+                                                                    alt="" /></div>
+                                                                    </form>
+                                                                    </div>
+                                                                    <!-- .wpforms-container -->
+                                                                        </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    </section>
+                                                                    </div>
+                                                                    <div class="post-tags">
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                    <section id="comments" class="comments-area">
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        </section>
+                                                                    <!-- .comments-area -->
+                                                                        </main>
+                                                                    
+                                                             
+                                                                                                                                                                                                            </div>
+                                                                    
+                                                                    
+                                                                                                                                      <div class = "footer">
+                                                                      <span class="elementor-divider-separator">
+							<h6 class="elementor-divider__text elementor-divider__element">
+				Who We Are?				</h6>
+						</span>
+                                                                      </div>
+                                                                                                                                                                                                            </body>
+                                                                                                                                                                                                            </html>
+                                                                                                                                                                                                            
+                                                                                                                                                                                                            
+                                                                                                                                                                                                            </apex:page>
